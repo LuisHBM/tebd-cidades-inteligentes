@@ -1,4 +1,4 @@
--- Consultas de conferência da entrega parcial.
+-- Confere as contagens e os indicadores da carga.
 SELECT 'oltp' AS ambiente,count(*) AS tabelas FROM information_schema.tables
  WHERE table_schema='oltp' AND table_type='BASE TABLE';
 SELECT count(*) AS solicitacoes_oltp FROM oltp.solicitacao;

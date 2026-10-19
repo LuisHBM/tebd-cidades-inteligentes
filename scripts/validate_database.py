@@ -36,7 +36,7 @@ statuses=json.loads(run_query("SELECT json_object_agg(descricao,n) FROM (SELECT 
 assert statuses==manifest['statuses']
 result={'database_version':run_query('SHOW server_version'),'counts':counts,'statuses':statuses,'checks':{'pk':True,'fk':True,'chronology_check':True,'olap_full_reconciliation':True,'repeat_load_same_content':True},'mismatches':errors,'fact_fingerprint':fact_fingerprint(),'median_days_until_attended_status':float(run_query("SELECT percentile_cont(0.5) WITHIN GROUP (ORDER BY intervalo_ate_situacao_dias) FROM olap.fato_solicitacao f JOIN olap.dim_situacao s USING(situacao_sk) WHERE s.descricao='ATENDIDA'"))}
 (PROJECT_DIR/'docs/validation/postgresql_validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-(PROJECT_DIR/'docs/validation/postgresql_validation.txt').write_text(subprocess.check_output(base+['-f','sql/05_validate_submission.sql'],cwd=PROJECT_DIR,text=True))
+(PROJECT_DIR/'docs/validation/postgresql_validation.txt').write_text(subprocess.check_output(base+['-f','sql/05_validate_data.sql'],cwd=PROJECT_DIR,text=True))
 columns=json.loads(run_query("SELECT json_agg(t) FROM (SELECT table_schema,table_name,column_name,data_type,is_nullable FROM information_schema.columns WHERE table_schema IN ('oltp','olap') ORDER BY table_schema,table_name,ordinal_position)t"))
 (PROJECT_DIR/'docs/validation/postgresql_columns.json').write_text(json.dumps(columns,indent=2)+'\n')
 print(json.dumps(result,indent=2,ensure_ascii=False))

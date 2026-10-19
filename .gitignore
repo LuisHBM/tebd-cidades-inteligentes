@@ -1,6 +1,6 @@
-# Histórico local e pacote de entrega
+# Histórico local e pacotes gerados
 /archive/
-/public-lighting-service.zip
+/*.zip
 
 # Ambientes Python e arquivos de cache
 .venv/
