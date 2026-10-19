@@ -1,0 +1,38 @@
+erDiagram
+    direction LR
+    rpa {
+        smallint rpa_id PK
+    }
+    bairro {
+        integer bairro_id PK
+        smallint rpa_id FK
+        text nome
+    }
+    grupo_servico {
+        integer grupo_id PK
+        text descricao
+    }
+    servico {
+        integer servico_id PK
+        integer grupo_id FK
+        text descricao
+    }
+    situacao {
+        smallint situacao_id PK
+        text descricao
+    }
+    solicitacao {
+        bigint solicitacao_id PK
+        integer bairro_id FK
+        integer servico_id FK
+        smallint situacao_id FK
+        text logradouro
+        text numero
+        date data_demanda
+        date data_ultima_situacao
+    }
+    rpa ||..o{ bairro : contem
+    bairro ||..o{ solicitacao : localiza
+    grupo_servico ||..o{ servico : agrupa
+    servico ||..o{ solicitacao : tipifica
+    situacao ||..o{ solicitacao : descreve

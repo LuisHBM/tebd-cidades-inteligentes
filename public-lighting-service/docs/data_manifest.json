@@ -1,0 +1,49 @@
+{
+  "municipality": "Recife",
+  "agency": "EMLURB / Emprel",
+  "obtained_at": "2026-10-18",
+  "catalog_url": "https://dados.recife.pe.gov.br/dataset/central-de-atendimento-de-servicos-da-emlurb-156",
+  "resource_url": "https://dados.recife.pe.gov.br/dataset/central-de-atendimento-de-servicos-da-emlurb-156/resource/06872af2-9350-4c34-aa39-6337a1822ff7",
+  "download_url": "https://dados.recife.pe.gov.br/dataset/331e88a9-d878-464b-b0bb-cb803d7091b3/resource/06872af2-9350-4c34-aa39-6337a1822ff7/download/2025-central-de-atendimento-de-servicos-da-emlurb-156.csv",
+  "license": "Open Data Commons Open Database License (ODbL)",
+  "raw_sha256": "11ef6498bf5bef2305945caecc01293ec326237a2ac87df88d0d9261d19f3166",
+  "raw_rows": 86966,
+  "selection": "GRUPOSERVICO_DESCRICAO = ILUMINACAO PUBLICA; DATA_DEMANDA entre 2025-01-01 e 2025-08-31 (inclusive). Não corresponde ao ano completo.",
+  "source_last_status_range": [
+    "2025-01-02",
+    "2025-09-10"
+  ],
+  "request_id_rule": "Posição do registro de dados (1-based, sem cabeçalho) no CSV original de hash fixo; não é protocolo oficial nem chave estável entre versões.",
+  "transforms": [
+    "Remoção de espaços nas extremidades dos textos",
+    "Chaves locais para bairro e situação; códigos oficiais de RPA, grupo e serviço preservados",
+    "Latitude e longitude não importadas; não há análise geográfica por ponto",
+    "Sem deduplicação por endereço ou imputação de dados"
+  ],
+  "counts": {
+    "rpas": 6,
+    "bairros": 93,
+    "grupos": 1,
+    "servicos": 10,
+    "situacoes": 5,
+    "solicitacoes": 34492
+  },
+  "statuses": {
+    "PENDENCIA": 660,
+    "ATENDIDA": 33662,
+    "PREPARACAO": 121,
+    "CADASTRADA": 7,
+    "EXECUCAO": 42
+  },
+  "missing_coordinates": 31127,
+  "invalid_date_order": 0,
+  "simulation": false,
+  "processed_sha256": {
+    "neighborhoods.csv": "595734a11bbd4e48bcf7d76062624f1ade02b3582b115538321abeb6bea0114d",
+    "regions.csv": "732f10bd9205c1723753960f9780fbe48289110688f069a2aecf86c1ba1f63f0",
+    "requests.csv": "649c39d72507a7b8f4f0042556b71d16b76c1e79a5c40167f97415f0f2934b1d",
+    "service_groups.csv": "c7a11cc8d4133abfcdef5acf26ddd8d414b6d7f1cccc92cfe2333030d375c0cd",
+    "services.csv": "ee513a9789f58a7928e21ff3cfa140671d95d973bc5981fe6671817b6239f0fc",
+    "statuses.csv": "27433e2d0403e3780d7e3ab4d4cf65233820a809f09ca8be42850a4ba21498a2"
+  }
+}

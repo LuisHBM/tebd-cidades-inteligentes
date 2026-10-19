@@ -1,0 +1,94 @@
+bairro_id,rpa_id,nome
+1,1,Boa Vista
+2,1,Cabanga
+3,1,Coelhos
+4,1,Ilha Joana Bezerra
+5,1,Ilha do Leite
+6,1,Paissandu
+7,1,Recife
+8,1,Santo Amaro
+9,1,Santo Antonio
+10,1,Sao Jose
+11,1,Soledade
+12,2,Agua Fria
+13,2,Alto Santa Terezinha
+14,2,Arruda
+15,2,Beberibe
+16,2,Bomba do Hemeterio
+17,2,Cajueiro
+18,2,Campina do Barreto
+19,2,Campo Grande
+20,2,Dois Unidos
+21,2,Encruzilhada
+22,2,Fundao
+23,2,Hipodromo
+24,2,Linha do Tiro
+25,2,Peixinhos
+26,2,Ponto de Parada
+27,2,Porto da Madeira
+28,2,Rosarinho
+29,2,Torreao
+30,3,Aflitos
+31,3,Alto Jose Bonifacio
+32,3,Alto Jose do Pinho
+33,3,Alto do Mandu   Sitio Grande
+34,3,Apipucos
+35,3,Brejo da Guabiraba
+36,3,Brejo de Beberibe
+37,3,Casa Amarela
+38,3,Casa Forte
+39,3,Corrego do Jenipapo
+40,3,Derby
+41,3,Dois Irmaos
+42,3,Espinheiro
+43,3,Gracas
+44,3,Guabiraba
+45,3,Jaqueira
+46,3,Macaxeira
+47,3,Mangabeira
+48,3,Monteiro
+49,3,Morro da Conceicao
+50,3,Nova Descoberta
+51,3,Parnamirim
+52,3,Passarinho
+53,3,Poco
+54,3,Santana
+55,3,Sitio dos Pintos   Sao Bras
+56,3,Tamarineira
+57,3,Vasco da Gama
+58,4,Caxanga
+59,4,Cidade Universitaria
+60,4,Cordeiro
+61,4,Engenho do Meio
+62,4,Ilha do Retiro
+63,4,Iputinga
+64,4,Madalena
+65,4,Prado
+66,4,Torre
+67,4,Torroes
+68,4,Varzea
+69,4,Zumbi
+70,5,Afogados
+71,5,Areias
+72,5,Barro
+73,5,Bongi
+74,5,Cacote
+75,5,Coqueiral
+76,5,Curado
+77,5,Estancia
+78,5,Jardim Sao Paulo
+79,5,Jiquia
+80,5,Mangueira
+81,5,Mustardinha
+82,5,San Martin
+83,5,Sancho
+84,5,Tejipio
+85,5,Toto
+86,6,Boa Viagem
+87,6,Brasilia Teimosa
+88,6,Cohab   Ibura de Cima
+89,6,Ibura
+90,6,Imbiribeira
+91,6,Ipsep
+92,6,Jordao
+93,6,Pina

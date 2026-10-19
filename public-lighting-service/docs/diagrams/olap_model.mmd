@@ -1,0 +1,40 @@
+erDiagram
+    direction LR
+    dim_data {
+        integer data_sk PK
+        date data
+        smallint ano
+        smallint mes
+        smallint dia
+        smallint dia_semana
+    }
+    dim_bairro {
+        integer bairro_sk PK
+        text nome
+        smallint rpa_id
+    }
+    dim_servico {
+        integer servico_sk PK
+        text descricao
+        integer grupo_id
+        text grupo_descricao
+    }
+    dim_situacao {
+        smallint situacao_sk PK
+        text descricao
+    }
+    fato_solicitacao {
+        bigint solicitacao_id PK
+        integer data_demanda_sk FK
+        integer data_situacao_sk FK
+        integer bairro_sk FK
+        integer servico_sk FK
+        smallint situacao_sk FK
+        smallint quantidade
+        integer intervalo_ate_situacao_dias
+    }
+    dim_data ||..o{ fato_solicitacao : data_demanda
+    dim_data ||..o{ fato_solicitacao : data_ultima_situacao
+    dim_bairro ||..o{ fato_solicitacao : localiza
+    dim_servico ||..o{ fato_solicitacao : tipifica
+    dim_situacao ||..o{ fato_solicitacao : descreve

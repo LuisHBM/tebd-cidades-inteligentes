@@ -1,0 +1,41 @@
+ ambiente | tabelas 
+----------+---------
+ oltp     |       6
+(1 row)
+
+ solicitacoes_oltp 
+-------------------
+             34492
+(1 row)
+
+ solicitacoes_olap | quantidade 
+-------------------+------------
+             34492 |      34492
+(1 row)
+
+ descricao  | registros 
+------------+-----------
+ ATENDIDA   |     33662
+ PENDENCIA  |       660
+ PREPARACAO |       121
+ EXECUCAO   |        42
+ CADASTRADA |         7
+(5 rows)
+
+ ano  | mes | registros 
+------+-----+-----------
+ 2025 |   1 |      4296
+ 2025 |   2 |      4303
+ 2025 |   3 |      4030
+ 2025 |   4 |      4081
+ 2025 |   5 |      4481
+ 2025 |   6 |      4359
+ 2025 |   7 |      4625
+ 2025 |   8 |      4317
+(8 rows)
+
+ mediana_dias_ate_status_atendida 
+----------------------------------
+                                2
+(1 row)
+

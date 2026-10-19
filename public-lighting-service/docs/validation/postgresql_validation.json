@@ -1,0 +1,33 @@
+{
+  "database_version": "16.15 (Ubuntu 16.15-0ubuntu0.24.04.1)",
+  "counts": {
+    "oltp.rpa": 6,
+    "oltp.bairro": 93,
+    "oltp.grupo_servico": 1,
+    "oltp.servico": 10,
+    "oltp.situacao": 5,
+    "oltp.solicitacao": 34492,
+    "olap.dim_data": 253,
+    "olap.dim_bairro": 93,
+    "olap.dim_servico": 10,
+    "olap.dim_situacao": 5,
+    "olap.fato_solicitacao": 34492
+  },
+  "statuses": {
+    "PENDENCIA": 660,
+    "CADASTRADA": 7,
+    "EXECUCAO": 42,
+    "ATENDIDA": 33662,
+    "PREPARACAO": 121
+  },
+  "checks": {
+    "pk": true,
+    "fk": true,
+    "chronology_check": true,
+    "olap_full_reconciliation": true,
+    "repeat_load_same_content": true
+  },
+  "mismatches": 0,
+  "fact_fingerprint": "34492:8b43b34841c195e8d28d58aa3221a141",
+  "median_days_until_attended_status": 2.0
+}

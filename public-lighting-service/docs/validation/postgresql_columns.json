@@ -1,0 +1,296 @@
+[
+  {
+    "table_schema": "olap",
+    "table_name": "dim_bairro",
+    "column_name": "bairro_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_bairro",
+    "column_name": "nome",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_bairro",
+    "column_name": "rpa_id",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_data",
+    "column_name": "data_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_data",
+    "column_name": "data",
+    "data_type": "date",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_data",
+    "column_name": "ano",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_data",
+    "column_name": "mes",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_data",
+    "column_name": "dia",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_data",
+    "column_name": "dia_semana",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_servico",
+    "column_name": "servico_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_servico",
+    "column_name": "descricao",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_servico",
+    "column_name": "grupo_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_servico",
+    "column_name": "grupo_descricao",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_situacao",
+    "column_name": "situacao_sk",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "dim_situacao",
+    "column_name": "descricao",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "solicitacao_id",
+    "data_type": "bigint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "data_demanda_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "data_situacao_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "bairro_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "servico_sk",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "situacao_sk",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "quantidade",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "olap",
+    "table_name": "fato_solicitacao",
+    "column_name": "intervalo_ate_situacao_dias",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "bairro",
+    "column_name": "bairro_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "bairro",
+    "column_name": "rpa_id",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "bairro",
+    "column_name": "nome",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "grupo_servico",
+    "column_name": "grupo_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "grupo_servico",
+    "column_name": "descricao",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "rpa",
+    "column_name": "rpa_id",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "servico",
+    "column_name": "servico_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "servico",
+    "column_name": "grupo_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "servico",
+    "column_name": "descricao",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "situacao",
+    "column_name": "situacao_id",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "situacao",
+    "column_name": "descricao",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "solicitacao_id",
+    "data_type": "bigint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "bairro_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "servico_id",
+    "data_type": "integer",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "situacao_id",
+    "data_type": "smallint",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "logradouro",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "numero",
+    "data_type": "text",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "data_demanda",
+    "data_type": "date",
+    "is_nullable": "NO"
+  },
+  {
+    "table_schema": "oltp",
+    "table_name": "solicitacao",
+    "column_name": "data_ultima_situacao",
+    "data_type": "date",
+    "is_nullable": "NO"
+  }
+]

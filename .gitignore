@@ -1,0 +1,29 @@
+# Histórico local e pacote de entrega
+/archive/
+/public-lighting-service.zip
+
+# Ambientes Python e arquivos de cache
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Configurações locais e credenciais
+.env
+.env.*
+!.env.example
+!.env.template
+.aws/
+.codex/
+.agents/
+
+# Arquivos temporários do editor e do sistema
+.DS_Store
+Thumbs.db
+~$*
+.~lock.*#
+*.tmp
+*.log

@@ -1,0 +1,2 @@
+# Preserva os bytes dos dados usados na verificação por SHA-256.
+*.csv -text
