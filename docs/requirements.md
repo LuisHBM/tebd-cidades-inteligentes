@@ -19,11 +19,14 @@ Os requisitos funcionais (RF) definem as operações sobre a versão selecionada
 | RF05 | Consultar volume e situação por bairro, RPA, serviço e mês de abertura | Esquema estrela e consultas SQL |
 | RF06 | Calcular o intervalo até a última situação, distinguindo `ATENDIDA` das demais | Medida em dias e dimensão de situação |
 | RF07 | Refazer a carga analítica com o mesmo conteúdo | Recarga transacional e comparação dos registros |
+| RF08 | Ordenar as ruas pela chance de nova solicitação no mês seguinte, para priorizar inspeções | Rede neural com janela de 3 meses ([análise](analysis/neural_network.md)) |
+| RF09 | Agrupar os bairros por perfil de demanda e atendimento | k-means ([análise](analysis/kmeans.md)) |
 
 ## Requisitos técnicos
 
 - Executar localmente com PostgreSQL 16 e cliente `psql`.
 - Preparar os CSVs com Python 3 e biblioteca padrão.
+- Executar a mineração de dados com scikit-learn, pandas e matplotlib (`requirements.txt`).
 - Identificar a versão da fonte por hash SHA-256.
 - Usar arquivos oficiais por download direto, sem scraping ou preenchimento de dados por simulação.
 - Manter os nomes dos identificadores da modelagem em português e os nomes de apoio do código em inglês.
@@ -46,4 +49,4 @@ A iluminação integra as condições de uso de ruas e espaços públicos. O sis
 
 ## Fora do escopo
 
-Aplicativo de abertura de chamados, cadastro de cidadãos ou equipes, despacho de ordens de serviço, inventário de postes, medição de energia, previsão de defeitos e mapas por coordenadas. A implementação usa os registros públicos e não se integra ao sistema interno da prefeitura.
+Aplicativo de abertura de chamados, cadastro de cidadãos ou equipes, despacho de ordens de serviço, inventário de postes, medição de energia, previsão de defeitos por poste e mapas por coordenadas. A previsão do RF08 indica ruas com maior chance de nova solicitação e não identifica o ponto de luz com defeito. A implementação usa os registros públicos e não se integra ao sistema interno da prefeitura.

@@ -53,14 +53,39 @@ Os resultados ficam em `docs/validation/`. Na versão incluída, os dois modelos
 
 Os diagramas estão disponíveis em PNG, SVG e Mermaid, com cardinalidades em pé de galinha. Os scripts de preparação e validação usam apenas a biblioteca padrão do Python 3.
 
+## Dashboards e mineração de dados
+
+As consultas dos níveis operacional, tático e estratégico estão em `sql/06` a `sql/08`. Os enunciados, o código e os resultados estão em [docs/dashboards.md](docs/dashboards.md):
+
+```bash
+psql -h localhost -U postgres -d lighting_service -v ON_ERROR_STOP=1 -f sql/06_operational_dashboard.sql
+```
+
+A mineração usa scikit-learn, pandas e matplotlib:
+
+```bash
+python3 -m venv .venv
+.venv/bin/pip install -r requirements.txt
+.venv/bin/python scripts/predict_street_recurrence.py
+.venv/bin/python scripts/cluster_neighborhoods.py
+.venv/bin/python scripts/survival_street_recurrence.py
+```
+
+- [Rede neural](docs/analysis/neural_network.md): ordena as ruas pela chance de nova solicitação no mês seguinte, para priorizar inspeções.
+- [k-means](docs/analysis/kmeans.md): agrupa os bairros em quatro perfis de demanda e atendimento.
+- [Sobrevivência neural](docs/analysis/survival.md): estima a chance de nova solicitação em 7 a 62 dias, classifica as ruas em crônicas, recorrentes e esporádicas e gera o plano de inspeção de setembro.
+
 ## Modelos e documentação
 
 - [Requisitos e regras do sistema](docs/requirements.md)
 - [Dicionário de dados](docs/data_dictionary.md)
+- [Dashboards](docs/dashboards.md)
+- [Rede neural](docs/analysis/neural_network.md), [sobrevivência](docs/analysis/survival.md) e [k-means](docs/analysis/kmeans.md)
 - [DER transacional](docs/diagrams/oltp_model.svg)
 - [DER analítico](docs/diagrams/olap_model.svg)
 - [Fontes dos dados](references/README.md)
-- [Relatório em PDF](reports/relatorio_parcial_2026_10_19.pdf)
+- [Relatório parcial](reports/relatorio_parcial_2026_10_19.pdf) e [relatório final](reports/relatorio_final_2026_11_06.pdf)
+- [Plano de ação 5W2H](docs/action_plan.md)
 
 Arquivos, funções e variáveis de apoio usam nomes em inglês. Os identificadores da modelagem, como `solicitacao` e `bairro_id`, e as colunas da fonte permanecem em português.
 

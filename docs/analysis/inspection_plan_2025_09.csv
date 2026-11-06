@@ -1,0 +1,1186 @@
+prioridade,tipo,bairro,rpa_id,perfil_bairro,logradouro,risco_7d,risco_31d,n_chamados,dias_desde_ultimo
+semana 1,crônica,Macaxeira,3,2,Av Norte Miguel Arraes De Alencar,0.962,0.999,144,1
+semana 1,crônica,Campo Grande,2,2,Av Governador Agamenon Magalhaes,0.937,0.998,95,2
+semana 1,crônica,Guabiraba,3,2,Rod Br Cento E Um,0.932,0.996,51,2
+semana 1,crônica,Cidade Universitaria,4,2,Rod Br Cento E Um,0.93,0.997,58,1
+semana 1,crônica,Iputinga,4,1,Rod Br Cento E Um,0.924,0.996,58,1
+semana 1,crônica,Pina,6,1,Av Celso Furtado,0.923,0.997,83,1
+semana 1,crônica,Boa Viagem,6,1,Av Boa Viagem,0.917,0.997,105,3
+semana 1,crônica,Imbiribeira,6,1,Av Marechal Mascarenhas De Moraes,0.917,0.996,83,2
+semana 1,crônica,Dois Irmaos,3,2,Rod Br Cento E Um,0.91,0.993,36,2
+semana 1,crônica,Santo Amaro,1,1,Av Norte Miguel Arraes De Alencar,0.904,0.995,80,1
+semana 1,crônica,Recife,1,2,C Do Apolo,0.901,0.996,55,1
+semana 1,crônica,Casa Amarela,3,2,Av Norte Miguel Arraes De Alencar,0.899,0.992,78,1
+semana 1,crônica,Campo Grande,2,2,Rua Uniao Dos Palmares,0.896,0.994,32,2
+semana 1,crônica,Boa Viagem,6,1,Av Engenheiro Domingos Ferreira,0.896,0.994,104,1
+semana 1,crônica,Barro,5,1,Rod Br Cento E Um,0.894,0.994,49,1
+semana 1,crônica,Santo Amaro,1,1,Rua Da Aurora,0.893,0.995,45,1
+semana 1,crônica,Recife,1,2,Av Alfredo Lisboa,0.892,0.995,49,1
+semana 1,crônica,Espinheiro,3,2,Av Governador Agamenon Magalhaes,0.891,0.991,38,1
+semana 1,crônica,Boa Vista,1,1,Av Conde Da Boa Vista,0.89,0.994,97,4
+semana 1,crônica,Torroes,4,1,Av Engenheiro Abdias De Carvalho,0.89,0.993,76,6
+semana 1,crônica,Brasilia Teimosa,6,1,Av Brasilia Formosa,0.89,0.994,80,3
+semana 1,crônica,Boa Vista,1,1,Av Governador Agamenon Magalhaes,0.883,0.994,50,1
+semana 1,crônica,Derby,3,2,Av Governador Agamenon Magalhaes,0.883,0.992,32,6
+semana 1,crônica,Santo Amaro,1,1,Av Governador Agamenon Magalhaes,0.882,0.993,66,3
+semana 1,crônica,Curado,5,1,Rod Br Cento E Um,0.868,0.992,43,1
+semana 1,crônica,Recife,1,2,Av Rio Branco,0.858,0.992,44,1
+semana 1,crônica,Pina,6,1,Av Antonio De Goes,0.858,0.99,38,2
+semana 1,crônica,Derby,3,2,Prc Do Derby,0.856,0.983,23,1
+semana 1,crônica,Santo Antonio,1,1,Rua Do Sol,0.848,0.99,28,2
+semana 1,crônica,Areias,5,1,Av Recife,0.845,0.99,56,4
+semana 1,crônica,Boa Viagem,6,1,Av Celso Furtado,0.841,0.986,26,1
+semana 1,crônica,Santo Amaro,1,1,Rua Dos Palmares,0.84,0.988,48,5
+semana 1,crônica,Boa Viagem,6,1,Av Dom Joao Vi,0.839,0.988,29,1
+semana 1,crônica,Ipsep,6,1,Av Recife,0.837,0.986,31,5
+semana 1,crônica,Jiquia,5,1,Av Joao Cabral De Melo Neto,0.828,0.988,41,5
+semana 1,crônica,Recife,1,2,Rua Do Bom Jesus,0.826,0.988,32,3
+semana 1,crônica,Santo Amaro,1,1,Av Cruz Cabuga,0.826,0.984,37,1
+semana 1,crônica,Paissandu,1,1,Av Governador Agamenon Magalhaes,0.825,0.985,49,4
+semana 1,crônica,Ilha do Retiro,4,1,Av Sport Clube Do Recife,0.822,0.981,22,1
+semana 1,crônica,Santo Amaro,1,1,Av Mario Melo,0.821,0.985,30,5
+semana 1,crônica,Recife,1,2,Rua Mariz E Barros,0.813,0.984,24,1
+semana 1,crônica,Engenho do Meio,4,1,Rod Br Cento E Um,0.809,0.982,37,27
+semana 1,crônica,Tamarineira,3,2,Av Conselheiro Rosa E Silva,0.805,0.976,21,10
+semana 1,crônica,Gracas,3,2,Av Rui Barbosa,0.804,0.973,25,5
+semana 1,crônica,Santo Amaro,1,1,Av Dr Jayme Da Fonte,0.803,0.982,24,1
+semana 1,crônica,Casa Amarela,3,2,Est Do Arraial,0.802,0.973,43,10
+semana 1,crônica,Cajueiro,2,2,Rua Coronel Urbano Ribeiro De Sena,0.8,0.979,21,5
+semana 1,crônica,Boa Vista,1,1,Rua Da Aurora,0.797,0.981,36,5
+semana 1,crônica,Boa Viagem,6,1,Rua Barao De Souza Leao,0.794,0.981,24,2
+semana 1,crônica,Espinheiro,3,2,Av Norte Miguel Arraes De Alencar,0.786,0.968,23,5
+semana 1,crônica,Varzea,4,1,Av Afonso Olindense,0.785,0.971,27,3
+semana 1,crônica,Casa Forte,3,3,Av Dezessete De Agosto,0.784,0.966,34,2
+semana 1,crônica,Varzea,4,1,Av Caxanga,0.784,0.972,18,1
+semana 1,crônica,Boa Viagem,6,1,Av Conselheiro Aguiar,0.782,0.977,60,1
+semana 1,crônica,Tamarineira,3,2,Av Norte Miguel Arraes De Alencar,0.78,0.966,24,1
+semana 1,crônica,Jaqueira,3,2,Av Rui Barbosa,0.778,0.961,15,2
+semana 1,crônica,Boa Vista,1,1,Av Joao De Barros,0.775,0.976,40,3
+semana 1,crônica,Jardim Sao Paulo,5,1,Av Recife,0.768,0.977,33,5
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Av Pernambuco,0.768,0.976,21,2
+semana 1,crônica,Beberibe,2,3,Prc Da Convencao,0.766,0.966,14,1
+semana 1,crônica,Arruda,2,3,Av Professor Jose Dos Anjos,0.765,0.968,29,6
+semana 1,crônica,Boa Viagem,6,1,Rua Visconde De Jequitinhonha,0.763,0.973,46,5
+semana 1,crônica,Santo Amaro,1,1,Rua Frei Cassimiro,0.759,0.971,45,5
+semana 1,crônica,Encruzilhada,2,2,Rua Amaro Coutinho,0.759,0.969,17,4
+semana 1,crônica,Imbiribeira,6,1,Rua Soldado Sinesio De Aragao,0.759,0.97,21,1
+semana 1,crônica,Arruda,2,3,Rua Desenhista Eulino Santos,0.758,0.964,16,6
+semana 1,crônica,Estancia,5,1,Av Recife,0.756,0.973,49,10
+semana 1,crônica,Sao Jose,1,1,Av Sul Gov Cid Sampaio,0.755,0.971,31,11
+semana 1,crônica,Boa Viagem,6,1,Rua Bruno Veloso,0.755,0.97,19,5
+semana 1,crônica,Boa Vista,1,1,Rua Gervasio Pires,0.754,0.968,28,3
+semana 1,crônica,Boa Vista,1,1,Rua Do Hospicio,0.753,0.971,25,6
+semana 1,crônica,Sao Jose,1,1,C De Santa Rita,0.751,0.971,31,11
+semana 1,crônica,Boa Viagem,6,1,Rua Ribeiro De Brito,0.741,0.972,17,3
+semana 1,crônica,Torreao,2,2,Rua Othon Paraiso,0.74,0.963,16,10
+semana 1,crônica,Encruzilhada,2,2,Av Norte Miguel Arraes De Alencar,0.739,0.962,25,8
+semana 1,crônica,Apipucos,3,3,Rua De Apipucos,0.732,0.943,19,10
+semana 1,crônica,Recife,1,2,Av Militar,0.729,0.967,18,3
+semana 1,crônica,Boa Vista,1,1,Rua Do Principe,0.728,0.964,31,5
+semana 1,crônica,Jardim Sao Paulo,5,1,Rod Br Cento E Um,0.728,0.962,17,1
+semana 1,crônica,Gracas,3,2,Rua Medeiros De Albuquerque,0.725,0.952,14,6
+semana 1,crônica,Campina do Barreto,2,2,Rua Dr Elias Gomes,0.723,0.956,19,2
+semana 1,crônica,Sao Jose,1,1,Rua Imperial,0.721,0.963,30,6
+semana 1,crônica,Pina,6,1,Av Engenheiro Domingos Ferreira,0.713,0.955,19,6
+semana 1,crônica,Recife,1,2,C Da Alfandega,0.712,0.961,17,1
+semana 1,crônica,Sao Jose,1,1,Rua Floriano Peixoto,0.71,0.96,30,6
+semana 1,crônica,Passarinho,3,2,Rod Br Cento E Um,0.71,0.932,14,12
+semana 1,crônica,Imbiribeira,6,1,Rua Presidente Nilo Pecanha,0.705,0.956,18,4
+semana 1,crônica,Linha do Tiro,2,3,Av Anibal Benevolo,0.691,0.932,14,1
+semana 1,crônica,Guabiraba,3,2,Est Da Mumbeca,0.691,0.932,19,7
+semana 1,crônica,Hipodromo,2,2,Prc Tertuliano Feitosa,0.688,0.937,12,4
+semana 1,crônica,Pina,6,1,Av Herculano Bandeira,0.688,0.953,32,19
+semana 1,crônica,Santo Antonio,1,1,Av Dantas Barreto,0.683,0.951,20,5
+semana 1,crônica,Ilha Joana Bezerra,1,4,Rua Jaraguari,0.682,0.951,13,2
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Atum,0.681,0.942,30,1
+semana 1,crônica,Areias,5,1,Rua Palmares,0.674,0.959,15,3
+semana 1,crônica,San Martin,5,1,Av General San Martin,0.674,0.959,17,3
+semana 1,crônica,Linha do Tiro,2,3,Rua Uriel De Holanda,0.673,0.94,15,2
+semana 1,crônica,Caxanga,4,1,Av Joaquim Ribeiro,0.672,0.936,13,1
+semana 1,crônica,Boa Vista,1,1,Rua Bispo Cardoso Ayres,0.67,0.95,26,13
+semana 1,crônica,Dois Irmaos,3,2,Rua Manuel De Medeiros,0.67,0.922,14,12
+semana 1,crônica,Pina,6,1,Rua Carlos Lira Filho,0.67,0.932,15,6
+semana 1,crônica,Cidade Universitaria,4,2,Av Visconde De Sao Leopoldo,0.669,0.937,13,4
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Dagoberto Pires,0.667,0.939,22,3
+semana 1,crônica,Imbiribeira,6,1,Rua Engenheiro Jose Brandao Cavalcante,0.663,0.937,26,4
+semana 1,crônica,Sao Jose,1,1,Av Rio Capibaribe,0.662,0.943,22,2
+semana 1,crônica,Campina do Barreto,2,2,Av Poeta Vinicius De Morais,0.661,0.931,11,2
+semana 1,crônica,Sao Jose,1,1,Av Dantas Barreto,0.653,0.939,26,5
+semana 1,crônica,Torroes,4,1,Rua Maestro Jones Johnson,0.649,0.936,10,3
+semana 1,crônica,Boa Vista,1,1,Rua Do Riachuelo,0.642,0.936,21,8
+semana 1,crônica,Recife,1,2,Rua Do Apolo,0.642,0.939,12,1
+semana 1,crônica,Santo Amaro,1,1,Av Visconde De Suassuna,0.642,0.938,26,11
+semana 1,crônica,Cordeiro,4,1,Av Engenheiro Abdias De Carvalho,0.64,0.919,13,5
+semana 1,crônica,Torreao,2,2,Av Governador Agamenon Magalhaes,0.639,0.925,19,27
+semana 1,crônica,Boa Viagem,6,1,Av Marechal Juarez Tavora,0.637,0.926,16,1
+semana 1,crônica,Iputinga,4,1,Av Caxanga,0.635,0.925,19,3
+semana 1,crônica,Aflitos,3,3,Av Conselheiro Rosa E Silva,0.633,0.904,20,8
+semana 1,crônica,Poco,3,4,Est Real Do Poco,0.633,0.894,10,5
+semana 1,crônica,Paissandu,1,1,Rua Paissandu,0.63,0.93,16,3
+semana 1,crônica,Imbiribeira,6,1,Av Jose Ferreira Lins,0.63,0.933,14,3
+semana 1,crônica,Parnamirim,3,2,Av Dezessete De Agosto,0.624,0.891,10,2
+semana 1,crônica,Areias,5,1,Av Doutor Jose Rufino,0.624,0.925,17,3
+semana 1,crônica,Casa Amarela,3,2,Rua Arnoldo Magalhaes,0.619,0.901,16,32
+semana 1,crônica,Boa Viagem,6,1,Rua Setubal,0.619,0.921,22,5
+semana 1,crônica,Recife,1,2,Rua Alfandega,0.612,0.92,11,1
+semana 1,crônica,Torreao,2,2,Rua Augusto Rodrigues,0.612,0.907,10,4
+semana 1,crônica,Recife,1,2,Rua Vigario Tenorio,0.609,0.9,7,1
+semana 1,crônica,Afogados,5,1,Rua Sao Miguel,0.605,0.92,29,8
+semana 1,crônica,Santo Antonio,1,1,Prc Da Republica,0.604,0.917,9,1
+semana 1,crônica,Pina,6,1,Rua Manoel De Brito,0.603,0.914,14,1
+semana 1,crônica,Gracas,3,2,Av Conselheiro Rosa E Silva,0.601,0.889,15,8
+semana 1,crônica,Caxanga,4,1,Rua Ribeiro Pessoa,0.6,0.826,7,1
+semana 1,crônica,Santo Antonio,1,1,Rua Floriano Peixoto,0.599,0.918,20,12
+semana 1,crônica,Boa Vista,1,1,Rua Joao Fernandes Vieira,0.597,0.916,18,4
+semana 1,crônica,Ipsep,6,1,Av Senador Robert Kennedy,0.597,0.922,10,6
+semana 1,crônica,Imbiribeira,6,1,Av Presidente Dutra,0.591,0.909,10,5
+semana 1,crônica,Morro da Conceicao,3,2,Est Morro Da Conceicao,0.59,0.88,15,7
+semana 1,crônica,Sao Jose,1,1,Rua Das Calcadas,0.589,0.911,10,2
+semana 1,crônica,Santo Antonio,1,1,Av Martins De Barros,0.588,0.913,22,11
+semana 1,crônica,Santo Antonio,1,1,Rua Primeiro De Marco,0.587,0.911,18,11
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Artur Bernardes,0.586,0.905,19,13
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Francisco Valpassos,0.585,0.901,26,4
+semana 1,crônica,Boa Viagem,6,1,Rua Joao Cardoso Aires,0.582,0.903,15,4
+semana 1,crônica,Gracas,3,2,Rua Amelia,0.579,0.868,9,2
+semana 1,crônica,Ibura,6,1,Rod Br Cento E Um,0.578,0.902,13,3
+semana 1,crônica,Santo Amaro,1,1,Prq Treze De Maio,0.577,0.917,12,5
+semana 1,crônica,Pina,6,1,Rua Sao Luiz,0.575,0.898,13,3
+semana 1,crônica,Areias,5,1,Av Tapajos,0.568,0.913,23,6
+semana 1,crônica,Bongi,5,1,Est Do Bongi Armando Da Fonte,0.567,0.91,22,5
+semana 1,crônica,Pina,6,1,Rua Eduardo Jorge,0.567,0.894,13,6
+semana 1,crônica,Santo Amaro,1,1,Rua Treze De Maio,0.566,0.904,11,13
+semana 1,crônica,Santo Antonio,1,1,Rua Imperador Dom Pedro Ii,0.566,0.9,8,2
+semana 1,crônica,Campo Grande,2,2,Av Professor Jose Dos Anjos,0.562,0.883,9,11
+semana 1,crônica,Pina,6,1,Av Encanta Moca,0.561,0.893,8,3
+semana 1,crônica,Ilha do Leite,1,2,Av Governador Agamenon Magalhaes,0.559,0.904,13,4
+semana 1,crônica,Varzea,4,1,Av Prefeito Antonio Pereira,0.559,0.899,12,4
+semana 1,crônica,Campina do Barreto,2,2,Av Professor Jose Dos Anjos,0.558,0.893,12,29
+semana 1,crônica,Brejo da Guabiraba,3,3,Av Vereador Otacilio Azevedo,0.556,0.851,11,1
+semana 1,crônica,Casa Amarela,3,2,Rua Santa Izabel,0.555,0.852,7,13
+semana 1,crônica,Boa Viagem,6,1,Prg Da Rua Setubal,0.553,0.891,17,5
+semana 1,crônica,Hipodromo,2,2,Rua Fonseca Oliveira,0.552,0.88,9,12
+semana 1,crônica,Parnamirim,3,2,Av Parnamirim,0.552,0.847,9,2
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Da Paz,0.55,0.887,8,1
+semana 1,crônica,Campina do Barreto,2,2,Rua Expedicionario Jamil Dagli,0.548,0.861,9,5
+semana 1,crônica,Linha do Tiro,2,3,Rua Professor Jose Amarino Dos Reis,0.548,0.875,9,2
+semana 1,crônica,Madalena,4,1,Av Engenheiro Abdias De Carvalho,0.547,0.831,7,5
+semana 1,crônica,Sao Jose,1,1,Prc Dom Vital,0.543,0.889,11,2
+semana 1,crônica,Pina,6,1,Av Boa Viagem,0.543,0.873,18,6
+semana 1,crônica,Sao Jose,1,1,Av Engenheiro Jose Estelita,0.542,0.899,14,11
+semana 1,crônica,Pina,6,1,Rua Ivonete Ferreira Da Silva,0.542,0.863,13,5
+semana 1,crônica,Recife,1,2,Rua Madre De Deus,0.54,0.877,9,1
+semana 1,crônica,Casa Amarela,3,2,Sit Da Trindade Arraial Velho Do Bom Jesus,0.54,0.876,22,25
+semana 1,crônica,Boa Viagem,6,1,Rua Rio Azul,0.538,0.87,7,6
+semana 1,crônica,Dois Irmaos,3,2,Prc Farias Neves,0.536,0.834,8,12
+semana 1,crônica,Engenho do Meio,4,1,Rua Manuel Alves Deusdara,0.536,0.898,15,3
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Av Joao Rio Branco De Lima,0.532,0.892,15,6
+semana 1,crônica,Santo Amaro,1,1,Rua Do Pombal,0.53,0.889,10,12
+semana 1,crônica,Boa Vista,1,1,Rua Princesa Isabel,0.525,0.866,9,7
+semana 1,crônica,Linha do Tiro,2,3,Rua Sodrelandia,0.524,0.865,9,5
+semana 1,crônica,Ipsep,6,1,Rua Jean Emile Favre,0.524,0.868,13,4
+semana 1,crônica,Pina,6,1,Pte Governador Paulo Guerra,0.524,0.876,8,8
+semana 1,crônica,Ibura,6,1,Rua Rio Prado,0.519,0.859,12,6
+semana 1,crônica,Ilha Joana Bezerra,1,4,Av Central,0.518,0.824,7,2
+semana 1,crônica,Cordeiro,4,1,Est Do Forte Do Arraial Novo Do Bom Jesus,0.518,0.866,18,11
+semana 1,crônica,Agua Fria,2,3,Av Anibal Benevolo,0.517,0.868,12,19
+semana 1,crônica,Cacote,5,1,Av Recife,0.515,0.902,10,5
+semana 1,crônica,Guabiraba,3,2,Av Da Recuperacao,0.512,0.828,11,4
+semana 1,crônica,Jordao,6,1,Av Maria Irene,0.512,0.873,10,2
+semana 1,crônica,Soledade,1,2,Av Oliveira Lima,0.509,0.865,8,3
+semana 1,crônica,Mangabeira,3,3,Av Norte Miguel Arraes De Alencar,0.508,0.822,8,5
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Rod Br Cento E Um,0.507,0.845,8,12
+semana 1,crônica,Dois Irmaos,3,2,Av Da Recuperacao,0.505,0.826,10,6
+semana 1,crônica,Pina,6,1,Rua Comendador Morais,0.505,0.868,14,18
+semana 1,crônica,Madalena,4,1,Av Beira Rio,0.503,0.876,12,7
+semana 1,crônica,Tamarineira,3,2,Rua Soares Moreno,0.502,0.821,12,7
+semana 1,crônica,Iputinga,4,1,Rua Pao De Acucar,0.501,0.743,3,14
+semana 1,crônica,Imbiribeira,6,1,Vdo Presidente Tancredo Neves,0.501,0.866,8,10
+semana 1,crônica,Encruzilhada,2,2,Rua Castro Alves,0.495,0.836,9,6
+semana 1,crônica,Cajueiro,2,2,Rua Maria Cristina Tasso De Souza,0.494,0.838,11,3
+semana 1,crônica,Hipodromo,2,2,Rua Madre Rosa Gattorno,0.493,0.819,7,4
+semana 1,crônica,Agua Fria,2,3,Rua Ladeira De Pedra,0.492,0.843,10,5
+semana 1,crônica,Coelhos,1,4,Rua Dos Coelhos,0.491,0.868,16,24
+semana 1,crônica,Recife,1,2,Rua Da Moeda,0.49,0.864,13,20
+semana 1,crônica,San Martin,5,1,Rua Apulcro De Assuncao,0.49,0.843,15,1
+semana 1,crônica,Derby,3,2,Rua Jener De Souza,0.489,0.809,8,13
+semana 1,crônica,Pina,6,1,Prc Abelardo Baltar,0.489,0.841,8,4
+semana 1,crônica,Areias,5,1,Rua Capitao Gregorio De Albuquerque,0.488,0.886,11,6
+semana 1,crônica,Dois Unidos,2,3,Rua Canavial,0.487,0.823,8,12
+semana 1,crônica,Iputinga,4,1,Est Do Barbalho,0.487,0.852,17,12
+semana 1,crônica,Cabanga,1,1,Rua Capitao Antonio Manhaes De Mattos,0.486,0.837,7,10
+semana 1,crônica,Alto Santa Terezinha,2,3,Rua Tamboara,0.486,0.832,9,1
+semana 1,crônica,Gracas,3,2,Prc Do Entroncamento,0.486,0.806,9,30
+semana 1,crônica,Santo Amaro,1,1,Rua Do Hospicio,0.483,0.825,8,1
+semana 1,crônica,Dois Irmaos,3,2,Rua Dois Irmaos,0.479,0.806,9,6
+semana 1,crônica,Boa Viagem,6,1,Rua Eladio Ramos,0.477,0.841,17,12
+semana 1,crônica,Vasco da Gama,3,3,Av Norte Miguel Arraes De Alencar,0.474,0.793,11,10
+semana 1,crônica,Santo Antonio,1,1,Av Guararapes,0.473,0.847,6,5
+semana 1,crônica,Campo Grande,2,2,Rua Coelho Neto,0.473,0.791,7,2
+semana 1,crônica,Rosarinho,2,2,Av Santos Dumont,0.473,0.831,8,10
+semana 1,crônica,Iputinga,4,1,Rua Dr Pernambuco,0.472,0.745,6,9
+semana 1,crônica,San Martin,5,1,Rua Visconde De Porto Seguro,0.472,0.822,13,3
+semana 1,crônica,Arruda,2,3,Rua Das Mocas,0.47,0.831,11,27
+semana 1,crônica,Afogados,5,1,Est Dos Remedios,0.469,0.833,14,5
+semana 1,crônica,Boa Viagem,6,1,Av Fernando Simoes Barbosa,0.469,0.835,7,1
+semana 1,crônica,Rosarinho,2,2,Av Norte Miguel Arraes De Alencar,0.468,0.827,9,7
+semana 1,crônica,Apipucos,3,3,Rod Br Cento E Um,0.468,0.798,9,34
+semana 1,crônica,Ilha do Retiro,4,1,Av Engenheiro Abdias De Carvalho,0.465,0.783,4,1
+semana 1,crônica,Boa Viagem,6,1,Rua Professor Augusto Lins E Silva,0.462,0.832,11,6
+semana 1,crônica,Campo Grande,2,2,Rua Marques De Baipendi,0.459,0.816,9,7
+semana 1,crônica,Cordeiro,4,1,Rua Clotilde De Oliveira,0.459,0.622,3,3
+semana 1,crônica,Casa Forte,3,3,Prc De Casa Forte,0.457,0.786,8,6
+semana 1,crônica,Prado,4,1,Av Engenheiro Abdias De Carvalho,0.456,0.828,14,5
+semana 1,crônica,Boa Viagem,6,1,Rua Ernesto De Paula Santos,0.456,0.826,8,5
+semana 1,crônica,Corrego do Jenipapo,3,2,Rod Br Cento E Um,0.453,0.764,11,30
+semana 1,crônica,Caxanga,4,1,Av Caxanga,0.451,0.831,10,13
+semana 1,crônica,Vasco da Gama,3,3,Rua Camboriu,0.449,0.687,6,2
+semana 1,crônica,Sitio dos Pintos   Sao Bras,3,3,Rua Do Sitio Sao Braz,0.447,0.758,7,2
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Rua Capitao Vicente Curado,0.445,0.828,6,4
+semana 1,crônica,Varzea,4,1,Rua Coronel Pacheco,0.443,0.643,3,3
+semana 1,crônica,Boa Viagem,6,1,Av Desembargador Jose Neves,0.442,0.794,8,11
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Badejo,0.442,0.813,17,16
+semana 1,crônica,Pina,6,1,Rua Placido De Castro,0.442,0.825,14,20
+semana 1,crônica,Cordeiro,4,1,Av Professor Estevao Francisco Da Costa,0.441,0.75,5,3
+semana 1,crônica,Curado,5,1,Av Getulio Vargas,0.441,0.837,9,4
+semana 1,crônica,Afogados,5,1,Rua Cosme Viana,0.44,0.824,17,10
+semana 1,crônica,Boa Viagem,6,1,Av Sul Gov Cid Sampaio,0.44,0.83,14,28
+semana 1,crônica,Guabiraba,3,2,Est Dos Macacos,0.439,0.76,9,2
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Rua Dr Benigno Jordao De Vasconcelos,0.439,0.812,9,2
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Da Vitoria,0.438,0.784,7,5
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Delfim,0.438,0.81,14,12
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Dr Henrique Lins,0.438,0.799,11,4
+semana 1,crônica,Encruzilhada,2,2,Prc Castro Alves,0.436,0.772,6,4
+semana 1,crônica,Jordao,6,1,Av Dona Carentina,0.433,0.805,13,8
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Guarajuba,0.432,0.813,9,17
+semana 1,crônica,Cordeiro,4,1,Rua Teotonio Freire,0.43,0.784,13,3
+semana 1,crônica,Mangueira,5,1,Av Central,0.429,0.81,12,12
+semana 1,crônica,Sancho,5,1,Av Liberdade,0.429,0.838,20,17
+semana 1,crônica,Apipucos,3,3,Rua Do Mussu,0.427,0.769,7,3
+semana 1,crônica,Pina,6,1,Rua Tome Gibson,0.425,0.793,8,1
+semana 1,crônica,Poco,3,4,Av Dezessete De Agosto,0.424,0.759,8,4
+semana 1,crônica,Torroes,4,1,Est Do Forte Do Arraial Novo Do Bom Jesus,0.417,0.765,5,4
+semana 1,crônica,Pina,6,1,Rua Jose Mariano Filho,0.417,0.807,13,21
+semana 1,crônica,Santo Amaro,1,1,Rua Joao Lira,0.416,0.821,10,5
+semana 1,crônica,Sao Jose,1,1,Rua Piracema,0.416,0.782,6,2
+semana 1,crônica,Ipsep,6,1,Av Raimundo Diniz,0.415,0.794,11,11
+semana 1,crônica,Madalena,4,1,Rua Jose Osorio,0.414,0.77,12,8
+semana 1,crônica,Vasco da Gama,3,3,Rua Alto Do Eucalipto,0.412,0.726,9,2
+semana 1,crônica,Estancia,5,1,Av Joao Cabral De Melo Neto,0.412,0.82,15,16
+semana 1,crônica,Toto,5,4,Rua Onze De Agosto,0.408,0.839,9,6
+semana 1,crônica,Recife,1,2,Av Marques De Olinda,0.407,0.795,5,1
+semana 1,crônica,Campo Grande,2,2,Est De Belem,0.405,0.775,9,10
+semana 1,crônica,Vasco da Gama,3,3,Rua Dois De Fevereiro,0.404,0.721,7,2
+semana 1,crônica,Jaqueira,3,2,Rua Hoel Sette,0.402,0.749,8,28
+semana 1,crônica,Agua Fria,2,3,Rua Zeferino Agra,0.401,0.749,7,4
+semana 1,crônica,Passarinho,3,2,Av Chagas Ferreira,0.401,0.738,10,10
+semana 1,crônica,Varzea,4,1,Av Inacio De Barros Barreto,0.401,0.681,6,4
+semana 1,crônica,Iputinga,4,1,Rua Sao Mateus,0.399,0.724,9,6
+semana 1,crônica,Ibura,6,1,Rua Ribeirao Do Pinhal,0.399,0.772,12,8
+semana 1,crônica,Campina do Barreto,2,2,Rua Passarela,0.395,0.78,8,33
+semana 1,crônica,Varzea,4,1,Rua Caminho Da Areinha,0.393,0.797,8,14
+semana 1,crônica,Vasco da Gama,3,3,Rua Diadema,0.391,0.739,13,20
+semana 1,crônica,Sao Jose,1,1,Rua Do Forte,0.386,0.748,5,2
+semana 1,crônica,Ipsep,6,1,Rua Saturnino Meireles,0.386,0.777,13,24
+semana 1,crônica,Recife,1,2,Rua Barao Rodrigues Mendes,0.384,0.77,7,1
+semana 1,crônica,Parnamirim,3,2,Rua Dr Joao Santos Filho,0.383,0.694,14,19
+semana 1,crônica,Ipsep,6,1,Rua Itanage,0.38,0.76,6,4
+semana 1,crônica,Mangueira,5,1,Rua Bonito,0.374,0.79,9,4
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Araguari,0.374,0.75,11,3
+semana 1,crônica,Santo Amaro,1,1,Rua Araripina,0.373,0.771,7,11
+semana 1,crônica,Areias,5,1,Rua Goiana,0.372,0.764,5,1
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Joao Marques Dos Anjos,0.371,0.753,8,2
+semana 1,crônica,Varzea,4,1,Rod Br Cento E Um,0.37,0.776,11,30
+semana 1,crônica,Boa Viagem,6,1,Rua Antonio Falcao,0.369,0.747,6,4
+semana 1,crônica,Campo Grande,2,2,Rua Farias Neves,0.368,0.715,7,16
+semana 1,crônica,Casa Forte,3,3,Rua Lemos Torres,0.368,0.684,6,4
+semana 1,crônica,Afogados,5,1,Rua Da Paz,0.368,0.774,10,11
+semana 1,crônica,Boa Viagem,6,1,Rua Carlos Pereira Falcao,0.364,0.755,11,16
+semana 1,crônica,Varzea,4,1,Rua Azeredo Coutinho,0.363,0.722,13,11
+semana 1,crônica,Arruda,2,3,Rua Do Triunfo,0.361,0.687,5,1
+semana 1,crônica,Ilha Joana Bezerra,1,4,Av Desembargador Guerra Barreto,0.36,0.691,7,30
+semana 1,crônica,Iputinga,4,1,Trv Doutor Jose Anastacio Da Silva Guimaraes,0.36,0.759,5,5
+semana 1,crônica,Ilha Joana Bezerra,1,4,Rua Agua Doce,0.358,0.759,6,12
+semana 1,crônica,Peixinhos,2,2,Av Correia De Brito,0.358,0.727,8,24
+semana 1,crônica,Recife,1,2,Rua Dona Maria Cesar,0.357,0.706,3,1
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Arabaiana,0.355,0.732,7,7
+semana 1,crônica,Imbiribeira,6,1,Av General Mac Arthur,0.354,0.732,5,4
+semana 1,crônica,Santo Amaro,1,1,Rua Princesa,0.353,0.707,6,5
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Trv Frei Loureiro,0.352,0.715,7,14
+semana 1,crônica,Sitio dos Pintos   Sao Bras,3,3,Rua Barao Do Capibaribe,0.351,0.695,8,12
+semana 1,crônica,Imbiribeira,6,1,Av Recife,0.347,0.741,6,3
+semana 1,crônica,Santo Antonio,1,1,Prc Joaquim Nabuco,0.346,0.743,7,20
+semana 1,crônica,Torroes,4,1,Rua Juscelandia,0.343,0.705,6,4
+semana 1,crônica,Cohab   Ibura de Cima,6,1,Av Santa Fe,0.342,0.725,5,5
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Lupercio,0.341,0.731,14,28
+semana 1,crônica,Cordeiro,4,1,Rua Odete Monteiro,0.34,0.723,12,19
+semana 1,crônica,Pina,6,1,Rua Amador Bueno,0.34,0.751,8,21
+semana 1,crônica,Boa Viagem,6,1,Rua Arthur Bruno Schwambach,0.339,0.712,8,6
+semana 1,crônica,Torroes,4,1,Rua Dr Domingos De Abreu Vasconcelos,0.334,0.708,5,6
+semana 1,crônica,Boa Viagem,6,1,Rua Tenente Domingos De Brito,0.334,0.718,8,11
+semana 1,crônica,Imbiribeira,6,1,Rua Camacho,0.334,0.71,6,4
+semana 1,crônica,Boa Viagem,6,1,Rua Padre Bernardino Pessoa,0.333,0.71,9,10
+semana 1,crônica,Imbiribeira,6,1,Rua Evaristo Carneiro Leao,0.329,0.717,9,24
+semana 1,crônica,Engenho do Meio,4,1,Av Visconde De Sao Leopoldo,0.327,0.721,15,24
+semana 1,crônica,Areias,5,1,Rua Dona Ana Aurora,0.326,0.727,14,11
+semana 1,crônica,Santo Antonio,1,1,Prc Da Independencia,0.324,0.75,5,6
+semana 1,crônica,Brasilia Teimosa,6,1,Rua Marechal Hermes,0.322,0.727,8,18
+semana 1,crônica,Boa Viagem,6,1,Rua Dos Navegantes,0.314,0.718,19,34
+semana 1,crônica,Cabanga,1,1,Rua Projetada,0.311,0.738,12,32
+semana 1,crônica,Recife,1,2,Pte Buarque De Macedo,0.311,0.735,11,27
+mês,recorrente,Prado,4,1,Rua Professor Lins E Silva,0.401,0.638,4,3
+mês,recorrente,Torroes,4,1,Rua Professora Maria De Lourdes Leite Nogueira,0.4,0.629,3,2
+mês,recorrente,Boa Viagem,6,1,Rua Major Armando De Souza Mello,0.387,0.615,1,1
+mês,recorrente,Prado,4,1,Av Jockey Clube,0.375,0.607,3,5
+mês,recorrente,Recife,1,2,Rua Professor Aloisio Magalhaes,0.369,0.508,1,1
+mês,recorrente,Santo Amaro,1,1,Rua Frei Miguelinho,0.364,0.504,1,2
+mês,recorrente,Jaqueira,3,2,Rua Madre Loyola,0.361,0.675,7,20
+mês,recorrente,Cordeiro,4,1,Rua Eurico De Souza Leao,0.361,0.616,3,6
+mês,recorrente,Varzea,4,1,Av Melvin Jones,0.36,0.59,4,1
+mês,recorrente,Sao Jose,1,1,Rua General Helio De Albuquerque Mello,0.359,0.672,3,12
+mês,recorrente,Cordeiro,4,1,Prq Do Forte Do Arraial Novo Do Bom Jesus,0.358,0.668,3,3
+mês,recorrente,Varzea,4,1,Rua Ildefonso Araujo Do Rego,0.357,0.561,2,3
+mês,recorrente,Santo Amaro,1,1,1Tr Campo Do Onze,0.348,0.488,1,5
+mês,recorrente,Varzea,4,1,Rua Tomaz Ferreira,0.348,0.518,2,3
+mês,recorrente,Cordeiro,4,1,Rua Conselheiro Silveira De Souza,0.347,0.583,4,3
+mês,recorrente,Iputinga,4,1,Av Mauricio De Nassau,0.342,0.629,9,9
+mês,recorrente,Dois Unidos,2,3,Rua Barao De Pajeu,0.341,0.614,4,1
+mês,recorrente,Varzea,4,1,Rua Guardiao Manoel Pacheco,0.341,0.516,3,7
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Professor Mario Neves Baptista,0.341,0.695,4,2
+mês,recorrente,Soledade,1,2,Rua Do Principe,0.34,0.66,2,3
+mês,recorrente,Engenho do Meio,4,1,Rua Valdemar Falcao,0.34,0.521,2,7
+mês,recorrente,Madalena,4,1,Rua Belarmino Carneiro,0.338,0.671,6,4
+mês,recorrente,Casa Amarela,3,2,Rua Padre Lemos,0.337,0.677,7,13
+mês,recorrente,Parnamirim,3,2,Prc Dr Jose Vilela,0.336,0.654,6,30
+mês,recorrente,Boa Vista,1,1,Rua Doutor Jose Mariano,0.33,0.701,5,2
+mês,recorrente,Recife,1,2,Rua Bernardo Vieira De Melo,0.33,0.527,3,35
+mês,recorrente,Dois Unidos,2,3,Av Hildebrando De Vasconcelos,0.329,0.7,9,18
+mês,recorrente,Santo Amaro,1,1,Rua Princesa Isabel,0.328,0.664,4,3
+mês,recorrente,Beberibe,2,3,Rua Compositor Vinicius De Morais,0.327,0.662,5,2
+mês,recorrente,Boa Viagem,6,1,Rua Felix De Brito E Melo,0.327,0.707,5,1
+mês,recorrente,Dois Unidos,2,3,Rua Vertentes Do Lerio,0.326,0.67,5,5
+mês,recorrente,Varzea,4,1,Rua Leoberto Leal,0.326,0.594,4,12
+mês,recorrente,Imbiribeira,6,1,Rua Dancing Days,0.326,0.693,10,7
+mês,recorrente,Jordao,6,1,Rua Sertania,0.326,0.697,7,2
+mês,recorrente,Boa Viagem,6,1,Rua Sideral,0.324,0.673,4,5
+mês,recorrente,Iputinga,4,1,Av Professor Moraes Rego,0.322,0.577,3,5
+mês,recorrente,Santo Amaro,1,1,Av Joao De Barros,0.321,0.665,5,3
+mês,recorrente,Torreao,2,2,Rua Dom Joao Costa,0.321,0.685,5,17
+mês,recorrente,Alto Jose Bonifacio,3,3,Rua Corrego Do Euclides,0.319,0.632,5,2
+mês,recorrente,Iputinga,4,1,Rua Ademar Pires Travasso,0.318,0.565,2,3
+mês,recorrente,Iputinga,4,1,Rua Dr Nina Rodrigues,0.318,0.565,2,3
+mês,recorrente,Iputinga,4,1,Rua Odilon Araujo,0.318,0.565,2,3
+mês,recorrente,Varzea,4,1,Av Quinze De Novembro,0.318,0.673,8,5
+mês,recorrente,Jiquia,5,1,Rua Armando Fajardo,0.318,0.556,1,2
+mês,recorrente,Brasilia Teimosa,6,1,Rua Dr Paes De Melo,0.318,0.682,6,6
+mês,recorrente,Boa Viagem,6,1,Rua Serinhaem,0.317,0.494,2,3
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Entremontes,0.316,0.609,2,5
+mês,recorrente,Brejo da Guabiraba,3,3,Rua Cassiterita,0.315,0.636,6,17
+mês,recorrente,Pina,6,1,Rua Jose Rodrigues,0.315,0.689,6,7
+mês,recorrente,Corrego do Jenipapo,3,2,Rua Antonio Dias Adorno,0.314,0.637,7,5
+mês,recorrente,Espinheiro,3,2,Rua Da Hora,0.314,0.628,5,3
+mês,recorrente,Nova Descoberta,3,3,Rua Severino Goncalves,0.314,0.599,5,13
+mês,recorrente,Nova Descoberta,3,3,Rua Paraisopolis,0.313,0.601,5,10
+mês,recorrente,Boa Viagem,6,1,Rua Sargento Waldir Correia,0.311,0.691,7,5
+mês,recorrente,Jaqueira,3,2,Av Conselheiro Rosa E Silva,0.31,0.647,8,8
+mês,recorrente,Madalena,4,1,Rua Dr Joao Coimbra,0.31,0.58,3,3
+mês,recorrente,Jordao,6,1,Rua Vinte E Dois De Agosto,0.31,0.698,9,11
+mês,recorrente,Beberibe,2,3,Rua Uriel De Holanda,0.309,0.69,7,22
+mês,recorrente,Porto da Madeira,2,3,Av Beberibe Santa Cruz Futebol Clube,0.309,0.672,7,13
+mês,recorrente,Mangabeira,3,3,Rua Da Mangabeira,0.309,0.64,5,8
+mês,recorrente,Varzea,4,1,Av Liberdade,0.309,0.583,2,5
+mês,recorrente,Brasilia Teimosa,6,1,Rua Bem Te Vi,0.309,0.675,8,7
+mês,recorrente,Cidade Universitaria,4,2,Av Professor Moraes Rego,0.308,0.618,6,8
+mês,recorrente,Gracas,3,2,Av Governador Agamenon Magalhaes,0.307,0.64,6,4
+mês,recorrente,Iputinga,4,1,Rua Sucupira,0.307,0.713,15,11
+mês,recorrente,Curado,5,1,Trv Onze De Agosto,0.307,0.546,1,5
+mês,recorrente,Brasilia Teimosa,6,1,Rua Serra,0.307,0.637,4,11
+mês,recorrente,Boa Vista,1,1,Rua Das Fronteiras,0.305,0.684,8,4
+mês,recorrente,Imbiribeira,6,1,Rua Eladio Ramos,0.305,0.69,7,12
+mês,recorrente,Boa Vista,1,1,Lgo Da Santa Cruz,0.304,0.721,6,32
+mês,recorrente,Passarinho,3,2,Rua Pereira Barreto,0.303,0.636,6,5
+mês,recorrente,Rosarinho,2,2,Prc Phaelante Da Camara,0.302,0.7,6,41
+mês,recorrente,Morro da Conceicao,3,2,Rua Itaguatiara,0.301,0.626,5,18
+mês,recorrente,Brasilia Teimosa,6,1,Rua Comendador Morais,0.301,0.685,10,27
+mês,recorrente,Brasilia Teimosa,6,1,Rua Espardate,0.301,0.684,11,23
+mês,recorrente,Torre,4,1,Trv Eliezer Olimpio De Moura,0.3,0.475,2,4
+mês,recorrente,Boa Viagem,6,1,Rua Dhalia,0.299,0.613,3,1
+mês,recorrente,Cordeiro,4,1,Rua Adelino Frutuoso,0.298,0.666,10,11
+mês,recorrente,Cordeiro,4,1,Rua Professor Iremar Falcone De Melo,0.298,0.431,1,1
+mês,recorrente,Cordeiro,4,1,Rua Quata,0.298,0.431,1,1
+mês,recorrente,Varzea,4,1,Rua Claudio Manuel,0.298,0.431,1,1
+mês,recorrente,Torroes,4,1,Rua Candelaria,0.296,0.479,2,2
+mês,recorrente,Ibura,6,1,Av Marechal Mascarenhas De Moraes,0.296,0.681,7,20
+mês,recorrente,Imbiribeira,6,1,Rua Guarabira,0.296,0.675,8,25
+mês,recorrente,Jaqueira,3,2,Rua Do Futuro,0.294,0.624,5,8
+mês,recorrente,Imbiribeira,6,1,Rua Joao Ramalho,0.294,0.6,2,12
+mês,recorrente,Cordeiro,4,1,Rua Rio Das Flores,0.293,0.426,1,2
+mês,recorrente,Boa Vista,1,1,Rua Jose De Alencar,0.292,0.678,6,3
+mês,recorrente,Boa Viagem,6,1,Av Marechal Mascarenhas De Moraes,0.291,0.649,6,12
+mês,recorrente,Peixinhos,2,2,Av Professor Jose Dos Anjos,0.29,0.688,6,30
+mês,recorrente,Cohab   Ibura de Cima,6,1,Lad Da Cohab,0.29,0.68,5,4
+mês,recorrente,Monteiro,3,3,Av Dezessete De Agosto,0.289,0.616,5,6
+mês,recorrente,Santo Amaro,1,1,Rua Mamede Simoes,0.288,0.692,4,10
+mês,recorrente,Engenho do Meio,4,1,Rua Antonio Borges Uchoa,0.288,0.421,1,3
+mês,recorrente,Varzea,4,1,Rua Rio Jamunda,0.286,0.499,2,2
+mês,recorrente,Jiquia,5,1,Rua Volta Alegre,0.286,0.534,5,18
+mês,recorrente,Ibura,6,1,Rua Campos Dois Rios,0.286,0.586,3,3
+mês,recorrente,Prado,4,1,Rua Antonio De Sa,0.285,0.56,4,5
+mês,recorrente,Estancia,5,1,Av Central,0.285,0.652,7,6
+mês,recorrente,Santo Antonio,1,1,Rua Alarico Bezerra,0.284,0.594,2,19
+mês,recorrente,Iputinga,4,1,Rua Janiro Pontes,0.284,0.575,5,14
+mês,recorrente,Torroes,4,1,Rua Doutor Antonio Correia De Oliveira,0.283,0.416,1,4
+mês,recorrente,Torroes,4,1,Rua Dr Flavio Ferreira Da Silva Marojo,0.283,0.678,8,6
+mês,recorrente,Iputinga,4,1,Rua Manoel Joaquim De Almeida,0.282,0.528,3,9
+mês,recorrente,Sao Jose,1,1,Rua Padre Jose De Sa Leitao,0.281,0.613,3,2
+mês,recorrente,Torroes,4,1,Rua Onze De Novembro,0.281,0.494,2,3
+mês,recorrente,Varzea,4,1,Rua Padre Henrique,0.281,0.645,5,4
+mês,recorrente,Brasilia Teimosa,6,1,Rua Jose Rodrigues Da Rocha,0.281,0.474,2,3
+mês,recorrente,Brasilia Teimosa,6,1,Rua Salmao,0.281,0.653,7,21
+mês,recorrente,Ipsep,6,1,Rua Rio Beberibe,0.281,0.635,8,18
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Rio Grande,0.28,0.69,6,7
+mês,recorrente,Beberibe,2,3,Av Beberibe Santa Cruz Futebol Clube,0.279,0.637,6,12
+mês,recorrente,Boa Viagem,6,1,Rua Professor Julio Ferreira De Melo,0.279,0.632,8,17
+mês,recorrente,Cordeiro,4,1,Rua Cristianopolis,0.278,0.411,1,5
+mês,recorrente,Cordeiro,4,1,Rua Tatuamunha,0.278,0.411,1,5
+mês,recorrente,Engenho do Meio,4,1,Rua Francisco Bezerra Monteiro,0.278,0.411,1,5
+mês,recorrente,Madalena,4,1,Rua Virginio Campello,0.278,0.411,1,5
+mês,recorrente,Prado,4,1,Rua Ricardo Salazar,0.278,0.411,1,5
+mês,recorrente,Torroes,4,1,Rua Dr Miguel Vieira Ferreira,0.278,0.411,1,5
+mês,recorrente,Brasilia Teimosa,6,1,Rua Pargo,0.278,0.629,7,19
+mês,recorrente,Santo Amaro,1,1,Rua Do Principe,0.277,0.675,5,28
+mês,recorrente,Caxanga,4,1,Rua Professor Antonio Luiz Lins De Barros,0.277,0.479,2,3
+mês,recorrente,Iputinga,4,1,Rua Genesio Teofilo Bezerra Filho,0.277,0.595,4,18
+mês,recorrente,Prado,4,1,Rua Felix Cavalcante Albuquerque,0.276,0.505,2,5
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Rio Largo,0.276,0.69,9,33
+mês,recorrente,Torre,4,1,Rua Jose Bonifacio,0.275,0.603,6,5
+mês,recorrente,Pina,6,1,Rua Miranda Falcao,0.275,0.633,3,1
+mês,recorrente,Madalena,4,1,Rua Costa Gomes,0.274,0.406,1,6
+mês,recorrente,Torroes,4,1,Trv Ijui,0.274,0.462,3,8
+mês,recorrente,Varzea,4,1,Trv Seis De Marco,0.274,0.406,1,6
+mês,recorrente,Pina,6,1,Rua Dos Jasmins,0.274,0.61,4,1
+mês,recorrente,Santo Antonio,1,1,Prc Tiradentes,0.273,0.531,2,1
+mês,recorrente,Santo Amaro,1,1,Rua Dr Silva Ferreira,0.271,0.618,3,3
+mês,recorrente,Campo Grande,2,2,Rua Oliveira Fonseca,0.271,0.625,6,12
+mês,recorrente,Caxanga,4,1,Rua Alexandre Kruse Filho,0.271,0.694,5,21
+mês,recorrente,Cordeiro,4,1,Rua Manoel Moreira,0.271,0.486,3,5
+mês,recorrente,Boa Viagem,6,1,Av Helio Falcao,0.271,0.584,2,11
+mês,recorrente,Boa Viagem,6,1,Rua Maria Carolina,0.271,0.635,8,17
+mês,recorrente,Brejo da Guabiraba,3,3,Rod Br Cento E Um,0.27,0.557,5,19
+mês,recorrente,Cordeiro,4,1,Rua Joaquim Alheiros,0.27,0.429,2,5
+mês,recorrente,Engenho do Meio,4,1,Rua Doutor Castro E Silva,0.27,0.429,2,5
+mês,recorrente,Boa Viagem,6,1,Av Professor Joao Medeiros,0.27,0.635,6,11
+mês,recorrente,Boa Viagem,6,1,Rua Arana,0.27,0.55,3,4
+mês,recorrente,Boa Viagem,6,1,Rua Coronel Benedito Chaves,0.27,0.653,7,34
+mês,recorrente,Boa Vista,1,1,Rua Imperatriz Tereza Cristina,0.269,0.643,6,7
+mês,recorrente,Iputinga,4,1,Prc Salgueiro,0.269,0.577,4,14
+mês,recorrente,Tejipio,5,1,Rua Aprigio Guimaraes,0.269,0.532,4,3
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Raul Soares,0.269,0.633,7,17
+mês,recorrente,Sao Jose,1,1,Av Martins De Barros,0.268,0.703,9,34
+mês,recorrente,Agua Fria,2,3,Rua Sao Sebastiao,0.268,0.572,5,13
+mês,recorrente,Varzea,4,1,Av Professor Artur De Sa,0.268,0.659,8,11
+mês,recorrente,Varzea,4,1,Rua Mario Campelo,0.268,0.491,3,4
+mês,recorrente,Varzea,4,1,Rua Sao Vicente De Paula,0.268,0.584,5,3
+mês,recorrente,Pina,6,1,Av Conselheiro Aguiar,0.268,0.686,7,41
+mês,recorrente,Ilha do Retiro,4,1,Rua Campos Tabaiares,0.267,0.541,5,9
+mês,recorrente,Monteiro,3,3,Pte Engenheiro Jaime Gusmao,0.266,0.578,4,3
+mês,recorrente,Madalena,4,1,Rua Monsenhor Julio Maria,0.266,0.579,7,10
+mês,recorrente,Barro,5,1,Rua Da Esperanca,0.266,0.642,6,12
+mês,recorrente,Brasilia Teimosa,6,1,Rua Paru,0.266,0.618,5,17
+mês,recorrente,Pina,6,1,Rua Eurico Vitruvio,0.266,0.506,4,20
+mês,recorrente,Varzea,4,1,Rua Isaac Buril,0.265,0.623,15,11
+mês,recorrente,Ibura,6,1,Av Presidente Dutra,0.265,0.619,4,4
+mês,recorrente,Pina,6,1,Rua Das Saudades,0.265,0.55,2,1
+mês,recorrente,Arruda,2,3,Rua Bolivar,0.263,0.622,7,20
+mês,recorrente,Varzea,4,1,Rua Barra Do Sagi,0.263,0.491,3,6
+mês,recorrente,Boa Viagem,6,1,Rua Aviador Severiano Lins,0.263,0.595,3,5
+mês,recorrente,Boa Viagem,6,1,Rua Baltazar Passos,0.263,0.631,6,13
+mês,recorrente,Ilha Joana Bezerra,1,4,Av Martin Luther King,0.262,0.676,6,12
+mês,recorrente,Recife,1,2,Rua Do Observatorio,0.262,0.53,2,1
+mês,recorrente,Encruzilhada,2,2,Av Joao De Barros,0.262,0.625,7,25
+mês,recorrente,Ibura,6,1,Rua Frei Luis De Souza,0.262,0.616,6,10
+mês,recorrente,Ibura,6,1,Rua Jose Martorano,0.262,0.616,3,3
+mês,recorrente,Cabanga,1,1,Av Engenheiro Jose Estelita,0.261,0.657,5,21
+mês,recorrente,Sao Jose,1,1,Prc Das Cinco Pontas,0.261,0.676,6,20
+mês,recorrente,Torreao,2,2,Rua Padre Miguelinho,0.261,0.61,5,17
+mês,recorrente,Cordeiro,4,1,Rua Dom Jose Pereira Alves,0.261,0.666,9,21
+mês,recorrente,Jiquia,5,1,1Tr Principe Da Beira,0.261,0.622,5,4
+mês,recorrente,Boa Vista,1,1,Rua Padre Ingles,0.26,0.616,4,5
+mês,recorrente,Casa Amarela,3,2,Av Malaco,0.26,0.582,5,11
+mês,recorrente,Dois Unidos,2,3,Rua Projetada,0.259,0.655,7,32
+mês,recorrente,Boa Viagem,6,1,Rua Jornalista Adeth Leite,0.259,0.653,5,26
+mês,recorrente,Santo Amaro,1,1,Av Prefeito Artur Lima Cavalcanti,0.258,0.66,5,26
+mês,recorrente,Ibura,6,1,Rua Rio Una,0.258,0.618,4,12
+mês,recorrente,Imbiribeira,6,1,Av Sul Gov Cid Sampaio,0.258,0.63,5,11
+mês,recorrente,Campina do Barreto,2,2,Rua Garibalde,0.257,0.576,4,3
+mês,recorrente,Afogados,5,1,Rua Feliciano De Mello,0.257,0.642,9,13
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Valenca,0.257,0.615,4,5
+mês,recorrente,Santo Amaro,1,1,Rua Do Sossego,0.256,0.571,8,5
+mês,recorrente,Campo Grande,2,2,Rua Dr Machado,0.256,0.609,8,23
+mês,recorrente,Brasilia Teimosa,6,1,Rua Carapeba,0.256,0.539,2,3
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Sonho Real,0.256,0.402,1,2
+mês,recorrente,Pina,6,1,Rua Jose Paes De Barros,0.256,0.601,4,3
+mês,recorrente,Boa Viagem,6,1,Rua Professor Mario Castro,0.255,0.611,5,5
+mês,recorrente,Varzea,4,1,Rua Tres De Maio,0.254,0.385,1,11
+mês,recorrente,Ipsep,6,1,Rua Itacambira,0.254,0.624,4,10
+mês,recorrente,Alto Jose Bonifacio,3,3,Rua Alto Jose Bonifacio,0.253,0.611,9,53
+mês,recorrente,Boa Vista,1,1,Pte Seis De Marco,0.252,0.568,3,12
+mês,recorrente,Cajueiro,2,2,Rua Luiz Clericuzzi,0.252,0.605,6,18
+mês,recorrente,Varzea,4,1,Rua Vale Do Siriji,0.252,0.573,6,6
+mês,recorrente,Boa Viagem,6,1,Rua Dr Luiz Correa De Oliveira,0.252,0.398,1,3
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Sapucaia,0.252,0.398,1,3
+mês,recorrente,Jordao,6,1,Rua Ubatanga,0.252,0.398,1,3
+mês,recorrente,Passarinho,3,2,4Tr Pereira Barreto,0.251,0.522,4,9
+mês,recorrente,Brasilia Teimosa,6,1,Rua Medusa,0.251,0.657,14,63
+mês,recorrente,Sao Jose,1,1,Rua Vidal De Negreiros,0.25,0.595,4,31
+mês,recorrente,Sitio dos Pintos   Sao Bras,3,3,Rua Sitio Sapucaia,0.25,0.479,3,2
+mês,recorrente,Varzea,4,1,Rua Caxanga Agape,0.25,0.632,5,13
+mês,recorrente,Ibura,6,1,Rua Satiro Dias,0.25,0.601,6,9
+mês,recorrente,Jordao,6,1,Av Marechal Mascarenhas De Moraes,0.25,0.586,2,30
+mês,recorrente,Pina,6,1,Rua Projetada,0.25,0.606,7,27
+mês,recorrente,Engenho do Meio,4,1,Rua Governador Lopo Garro,0.249,0.617,4,20
+mês,recorrente,Boa Vista,1,1,Rua Goncalves Maia,0.248,0.613,4,19
+mês,recorrente,Areias,5,1,Rua General Francisco Figueiroa,0.248,0.648,7,10
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Jordania,0.248,0.393,1,4
+mês,recorrente,Ipsep,6,1,Rua Silveira Neto,0.248,0.635,4,28
+mês,recorrente,Santo Amaro,1,1,Rua Dr Carlos Chagas,0.247,0.624,5,10
+mês,recorrente,Iputinga,4,1,Rua Jose Frigueiro,0.247,0.376,1,13
+mês,recorrente,Recife,1,2,Rua Da Guia,0.246,0.616,3,6
+mês,recorrente,Arruda,2,3,Rua Maria Jose De Morais Bezerra,0.246,0.543,5,11
+mês,recorrente,Fundao,2,3,Av Beberibe Santa Cruz Futebol Clube,0.244,0.583,3,18
+mês,recorrente,Ipsep,6,1,Rua Aracatuba,0.244,0.593,6,15
+mês,recorrente,Jordao,6,1,Rua Alberto Lundgren,0.244,0.564,4,3
+mês,recorrente,Beberibe,2,3,Rua Curimbata,0.243,0.523,2,6
+mês,recorrente,Curado,5,1,Av Recife,0.243,0.64,5,11
+mês,recorrente,Fundao,2,3,Rua Coronel Urbano Ribeiro De Sena,0.242,0.56,4,6
+mês,recorrente,Boa Viagem,6,1,Rua Camboim,0.241,0.597,6,12
+mês,recorrente,Imbiribeira,6,1,Rua Cafesopolis,0.241,0.575,3,4
+mês,recorrente,Beberibe,2,3,Rua Taguatinga,0.24,0.594,6,26
+mês,recorrente,Engenho do Meio,4,1,Rua Projetada,0.24,0.627,6,34
+mês,recorrente,Brasilia Teimosa,6,1,Rua Brazopolis,0.24,0.589,6,18
+mês,recorrente,Agua Fria,2,3,Av Beberibe Santa Cruz Futebol Clube,0.239,0.591,7,26
+mês,recorrente,Iputinga,4,1,Rua Leal De Barros,0.239,0.553,4,14
+mês,recorrente,Ibura,6,1,Rua Jornalista Edson Regis,0.239,0.552,5,6
+mês,recorrente,Agua Fria,2,3,Rua Maria Digna,0.238,0.505,4,5
+mês,recorrente,Iputinga,4,1,Av Professor Joaquim Cavalcanti,0.238,0.643,10,48
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Engenho Serra Verde,0.238,0.592,6,13
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Alto Jose Do Pinho,0.236,0.38,1,7
+mês,recorrente,Imbiribeira,6,1,Rua Conde Pereira Carneiro,0.236,0.38,1,7
+mês,recorrente,Santo Amaro,1,1,Rua Alvares De Azevedo,0.235,0.591,5,5
+mês,recorrente,Arruda,2,3,Av Beberibe Santa Cruz Futebol Clube,0.235,0.591,6,31
+mês,recorrente,Coqueiral,5,4,Rua Ipatinga,0.235,0.612,5,11
+mês,recorrente,Varzea,4,1,Prc Pinto Damaso,0.234,0.644,5,19
+mês,recorrente,Ibura,6,1,Rua Rio Brigida,0.234,0.602,9,46
+mês,recorrente,Recife,1,2,Rua De Sao Jorge,0.233,0.621,3,6
+mês,recorrente,Ibura,6,1,Av Recife,0.233,0.581,8,30
+mês,recorrente,Ipsep,6,1,Rua Rio Amazonas,0.233,0.557,5,8
+mês,recorrente,Torre,4,1,Av Beira Rio,0.232,0.587,6,7
+mês,recorrente,Brasilia Teimosa,6,1,Rua Poraque,0.232,0.561,3,13
+mês,recorrente,Alto Santa Terezinha,2,3,Rua Alto Brasil,0.231,0.612,8,42
+mês,recorrente,Dois Unidos,2,3,Rua Tupiracaba,0.23,0.582,4,8
+mês,recorrente,Porto da Madeira,2,3,Av Cidade De Monteiro,0.23,0.556,4,12
+mês,recorrente,Ibura,6,1,Rua Rio Das Pedras,0.23,0.559,6,12
+mês,recorrente,Imbiribeira,6,1,Rua Alameda Das Hortencias,0.228,0.588,7,25
+mês,recorrente,Imbiribeira,6,1,Rua Verbena,0.228,0.521,2,8
+mês,recorrente,Arruda,2,3,Rua Coronel Alencar De Carvalho,0.227,0.574,6,24
+mês,recorrente,Areias,5,1,Av Capitao Gregorio De Caldas,0.227,0.594,5,13
+mês,recorrente,Boa Viagem,6,1,Rua Almirante Nelson Fernandes,0.227,0.553,4,8
+mês,recorrente,Boa Viagem,6,1,Rua Padre Cabral,0.227,0.537,5,10
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Ibiporanga,0.227,0.535,3,10
+mês,recorrente,Pina,6,1,Rua Carmopolis,0.227,0.53,3,20
+mês,recorrente,Boa Vista,1,1,Rua Da Santa Cruz,0.226,0.624,10,39
+mês,recorrente,Agua Fria,2,3,Rua Da Regeneracao,0.226,0.561,5,16
+mês,recorrente,Nova Descoberta,3,3,Av Norte Miguel Arraes De Alencar,0.226,0.551,3,10
+mês,recorrente,Madalena,4,1,Rua Severino Pessoa,0.226,0.556,6,16
+mês,recorrente,Varzea,4,1,Rua Vale Do Jaguaribe,0.226,0.5,5,6
+mês,recorrente,Imbiribeira,6,1,Rua Arquiteto Fernando Almeida,0.226,0.56,6,14
+mês,recorrente,Ipsep,6,1,Rua Adolfo Faro,0.226,0.57,3,18
+mês,recorrente,Santo Amaro,1,1,Rua Engenho Taquara,0.225,0.568,4,16
+mês,recorrente,Santo Amaro,1,1,Rua Gervasio Pires,0.225,0.563,3,10
+mês,recorrente,Caxanga,4,1,Rua Engenheiro Jose Soares,0.225,0.375,2,3
+mês,recorrente,Iputinga,4,1,Rua General Candido Borges Castelo Branco,0.225,0.351,1,20
+mês,recorrente,Torre,4,1,Rua Real Da Torre,0.225,0.613,4,12
+mês,recorrente,Boa Viagem,6,1,Rua Jose Maria De Miranda,0.225,0.367,1,10
+mês,recorrente,Areias,5,1,Rua Jupiata,0.224,0.584,8,7
+mês,recorrente,Imbiribeira,6,1,Rua Jose Da Silva Lucena,0.224,0.578,5,25
+mês,recorrente,Mangueira,5,1,Rua Luiz Figueiroa,0.223,0.627,9,11
+mês,recorrente,Boa Vista,1,1,Prc Maciel Pinheiro,0.222,0.583,6,5
+mês,recorrente,Imbiribeira,6,1,Rua General Goes Monteiro,0.222,0.564,6,19
+mês,recorrente,Espinheiro,3,2,Rua Quarenta E Oito,0.22,0.518,6,28
+mês,recorrente,Brasilia Teimosa,6,1,Rua Nova,0.22,0.55,5,28
+mês,recorrente,Passarinho,3,2,Rua Alto Visconde Garrett,0.219,0.508,6,5
+mês,recorrente,Vasco da Gama,3,3,Rua Alto 13 De Maio,0.219,0.417,2,2
+mês,recorrente,Boa Viagem,6,1,Rua Dom Jose Lopes,0.219,0.511,2,10
+mês,recorrente,Boa Viagem,6,1,Rua Sa E Souza,0.219,0.546,6,20
+mês,recorrente,Imbiribeira,6,1,Rua Itacare,0.219,0.523,4,4
+mês,recorrente,Sao Jose,1,1,Rua Da Concordia,0.218,0.553,5,5
+mês,recorrente,Ilha do Retiro,4,1,Rua Dr Joao Marques,0.218,0.53,3,14
+mês,recorrente,Areias,5,1,Rua Argemiro Galvao,0.218,0.593,5,12
+mês,recorrente,San Martin,5,1,Rua Arsenio Calaca,0.218,0.587,5,4
+mês,recorrente,Boa Viagem,6,1,Rua Jose Hipolito Cardoso,0.218,0.546,5,23
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Rio Jari,0.217,0.542,3,14
+mês,recorrente,Cajueiro,2,2,Rua Dr Paulo Ramos,0.216,0.509,3,5
+mês,recorrente,Torroes,4,1,Av Inacio Monteiro,0.216,0.453,3,4
+mês,recorrente,Varzea,4,1,Rua Teixeira De Freitas,0.216,0.563,4,10
+mês,recorrente,Imbiribeira,6,1,Rua Cabo Goncalo De Paiva,0.216,0.544,6,40
+mês,recorrente,Recife,1,2,Rua Dr Ascanio Peixoto,0.215,0.577,4,27
+mês,recorrente,Brejo de Beberibe,3,3,Av Vereador Otacilio Azevedo,0.215,0.514,5,11
+mês,recorrente,Corrego do Jenipapo,3,2,Rua Erundina Negreiros De Araujo,0.215,0.549,7,53
+mês,recorrente,Imbiribeira,6,1,Rua Padre Carlos Leoncio,0.215,0.544,5,18
+mês,recorrente,Ilha Joana Bezerra,1,4,Rua Nova Aurora,0.214,0.556,6,19
+mês,recorrente,Torre,4,1,Prc Gregorio Bezerra,0.214,0.607,4,12
+mês,recorrente,Brejo da Guabiraba,3,3,Rua Presidente Costa E Silva,0.213,0.517,5,9
+mês,recorrente,Iputinga,4,1,Rua Santa Lucia,0.213,0.509,4,7
+mês,recorrente,Madalena,4,1,Rua Jose Higino,0.213,0.536,6,7
+mês,recorrente,Varzea,4,1,Rua Governador Leopoldo Neves,0.213,0.491,6,16
+mês,recorrente,Areias,5,1,Rua Caruaru,0.213,0.529,6,9
+mês,recorrente,Santo Antonio,1,1,Pat De Sao Pedro,0.212,0.581,5,14
+mês,recorrente,Alto Jose Bonifacio,3,3,Rua Corrego Jose Grande,0.212,0.427,2,3
+mês,recorrente,Vasco da Gama,3,3,Rua Vasco Da Gama,0.212,0.513,5,16
+mês,recorrente,Madalena,4,1,Rua Pessoa De Melo,0.212,0.448,3,5
+mês,recorrente,Jordao,6,1,Rua Limoeiro,0.212,0.546,5,13
+mês,recorrente,Pina,6,1,Rua Jeronimo De Oliveira Lima,0.212,0.567,4,5
+mês,recorrente,Pina,6,1,Rua Vila Teimosa,0.212,0.46,2,14
+mês,recorrente,Cordeiro,4,1,Rua Pierre Curie,0.211,0.484,4,8
+mês,recorrente,San Martin,5,1,Rua Dom Expedito Lopes,0.211,0.638,4,6
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Doze De Junho,0.211,0.516,4,4
+mês,recorrente,Imbiribeira,6,1,Rua Deputado Vieira Souto,0.211,0.532,5,13
+mês,recorrente,Imbiribeira,6,1,Rua Le Parc,0.211,0.489,2,13
+mês,recorrente,Soledade,1,2,Av Joao De Barros,0.21,0.563,4,5
+mês,recorrente,Bongi,5,1,Av Engenheiro Abdias De Carvalho,0.21,0.588,5,16
+mês,recorrente,Boa Viagem,6,1,Rua Jorge Couceiro Da Costa Eiras,0.21,0.498,5,11
+mês,recorrente,Jordao,6,1,Rua Britania,0.21,0.523,4,1
+mês,recorrente,Boa Vista,1,1,Rua Sete De Setembro,0.209,0.545,4,6
+mês,recorrente,Cajueiro,2,2,Rua Tenente Wanderley,0.209,0.538,4,8
+mês,recorrente,Macaxeira,3,2,Sub Do Plato,0.209,0.458,3,7
+mês,recorrente,Torre,4,1,Rua Conde De Iraja,0.209,0.534,7,9
+mês,recorrente,Campo Grande,2,2,Rua Jeronimo Vilela,0.208,0.561,7,39
+mês,recorrente,Poco,3,4,Rua Monsenhor Lobo,0.208,0.513,5,25
+mês,recorrente,Jardim Sao Paulo,5,1,Av Trinta De Outubro,0.208,0.591,10,18
+mês,recorrente,Boa Viagem,6,1,Av Beira Mar,0.207,0.536,3,18
+mês,recorrente,Ibura,6,1,Rua Santa Leopoldina,0.207,0.51,4,19
+mês,recorrente,Recife,1,2,Pte Conde Mauricio De Nassau,0.206,0.574,4,52
+mês,recorrente,Afogados,5,1,Prc Da Paz,0.206,0.598,5,11
+mês,recorrente,San Martin,5,1,Rua Comendador Jose Vita,0.206,0.543,8,12
+mês,recorrente,Ibura,6,1,Rua Rio Da Prata,0.206,0.555,7,32
+mês,recorrente,Santo Amaro,1,1,Prc Do Campo Santo,0.205,0.573,5,42
+mês,recorrente,Espinheiro,3,2,Av Conselheiro Rosa E Silva,0.205,0.528,8,36
+mês,recorrente,Cidade Universitaria,4,2,Rua Brigadeiro Antonio De Sampaio,0.205,0.52,4,10
+mês,recorrente,Madalena,4,1,Rua Antonio Rabelo,0.205,0.489,3,4
+mês,recorrente,Varzea,4,1,Rua Emeterio Maciel,0.205,0.511,6,11
+mês,recorrente,Varzea,4,1,Rua Torres Homem,0.205,0.486,4,13
+mês,recorrente,Boa Viagem,6,1,Rua Desembargador Joao Paes,0.205,0.51,4,10
+mês,recorrente,Ibura,6,1,Rua Dermeval Lobao,0.205,0.525,5,14
+mês,recorrente,Jordao,6,1,Rua Boanerges Pereira,0.205,0.518,4,7
+mês,recorrente,Pina,6,1,Rua Antonio Pedro De Figueiredo,0.205,0.477,5,10
+mês,recorrente,Boa Vista,1,1,Rua Osvaldo Cruz,0.204,0.559,2,4
+mês,recorrente,Alto Santa Terezinha,2,3,Rua Sodrelandia,0.204,0.499,4,28
+mês,recorrente,Passarinho,3,2,Rua Corrego Da Telha,0.204,0.418,2,5
+mês,recorrente,Afogados,5,1,Rua Sargento Wolff,0.204,0.622,5,16
+mês,recorrente,Boa Viagem,6,1,Rua Professor Eduardo Wanderley Filho,0.204,0.534,4,12
+mês,recorrente,Imbiribeira,6,1,Rua Barao Homem De Melo,0.204,0.52,6,28
+mês,recorrente,Recife,1,2,Av Barbosa Lima,0.203,0.517,3,8
+mês,recorrente,Brejo da Guabiraba,3,3,Rua Alto Jequiri,0.203,0.486,5,15
+mês,recorrente,Cordeiro,4,1,Av Mario Alvares Pereira De Lyra,0.202,0.547,4,4
+mês,recorrente,Brasilia Teimosa,6,1,Rua Alagoinha,0.201,0.518,4,24
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Mauricio De Araujo,0.201,0.484,4,34
+mês,recorrente,Ibura,6,1,Rua Cassiano Leite,0.201,0.454,4,7
+mês,recorrente,Imbiribeira,6,1,Rua Sargento Silvino Macedo,0.201,0.5,4,10
+mês,recorrente,Boa Viagem,6,1,Rua Padre Carapuceiro,0.2,0.532,4,20
+mês,recorrente,Ilha do Retiro,4,1,Rua Joao Ivo Da Silva,0.199,0.47,3,6
+mês,recorrente,Torre,4,1,Prc Professor Barreto Campello,0.199,0.526,4,12
+mês,recorrente,Varzea,4,1,Rua Maestro Gilberto Freyre,0.199,0.608,4,3
+mês,recorrente,Boa Vista,1,1,Pte Duarte Coelho,0.198,0.556,5,44
+mês,recorrente,Vasco da Gama,3,3,Rua Araci,0.198,0.389,7,14
+mês,recorrente,Torroes,4,1,Av Bicentenario Da Revolucao Francesa,0.198,0.474,4,27
+mês,recorrente,Jardim Sao Paulo,5,1,Rua Queluz,0.198,0.385,2,9
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Sao Paulo,0.198,0.527,6,39
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Das Flores,0.198,0.412,2,18
+mês,recorrente,Alto Santa Terezinha,2,3,1Tr Aurea,0.197,0.527,5,20
+mês,recorrente,Brejo da Guabiraba,3,3,Rua Alto Jose Idalino,0.197,0.498,5,18
+mês,recorrente,Macaxeira,3,2,Rua Corrego Da Areia,0.197,0.495,5,13
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Alto Erval Novo,0.197,0.518,6,27
+mês,recorrente,Linha do Tiro,2,3,Rua Projetada,0.196,0.534,5,28
+mês,recorrente,Tamarineira,3,2,Rua Padre Roma,0.196,0.493,5,35
+mês,recorrente,Jardim Sao Paulo,5,1,Prc Do Jardim Sao Paulo,0.196,0.608,6,60
+mês,recorrente,Ipsep,6,1,Rua Potengy,0.196,0.563,5,32
+mês,recorrente,Boa Vista,1,1,Rua Sao Goncalo,0.195,0.56,5,26
+mês,recorrente,Santo Amaro,1,1,Rua Da Unidade,0.195,0.36,2,46
+mês,recorrente,Iputinga,4,1,Rua Coronel Fernando Furtado,0.195,0.459,5,13
+mês,recorrente,Iputinga,4,1,Rua Quipapa,0.195,0.535,6,13
+mês,recorrente,Afogados,5,1,Rua Felix Peixoto,0.195,0.505,5,41
+mês,recorrente,Ipsep,6,1,Rua Santos Cosme E Damiao,0.195,0.494,3,44
+mês,recorrente,Dois Unidos,2,3,Rua Joao Cavalcanti Petribu,0.194,0.439,3,2
+mês,recorrente,Porto da Madeira,2,3,Lad Do Sapoti,0.194,0.519,5,28
+mês,recorrente,Parnamirim,3,2,Rua Leonardo Bezerra Cavalcanti,0.194,0.5,6,55
+mês,recorrente,Cordeiro,4,1,Rua Ribeiro Roma,0.194,0.527,5,11
+mês,recorrente,Cordeiro,4,1,Rua Rio Tejipio,0.194,0.423,3,26
+mês,recorrente,Boa Vista,1,1,Av Montevideu,0.193,0.526,4,11
+mês,recorrente,Cabanga,1,1,Prc Abelardo Rijo,0.193,0.466,2,68
+mês,recorrente,Vasco da Gama,3,3,Rua Vinte De Fevereiro,0.193,0.383,2,2
+mês,recorrente,Iputinga,4,1,Rua Ministro Joao Alberto,0.193,0.53,7,12
+mês,recorrente,Torroes,4,1,Rua Edvaldo Maranhao Ferreira,0.193,0.504,6,10
+mês,recorrente,Varzea,4,1,Rua Jose Antonio Da Costa Filho,0.193,0.468,8,32
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Dr Otavio De Moraes Vasconcelos,0.193,0.523,4,46
+mês,recorrente,Dois Irmaos,3,2,Ent Complexo Da Macaxeira,0.192,0.477,3,11
+mês,recorrente,Vasco da Gama,3,3,1Tr Pirizal,0.191,0.4,2,2
+mês,recorrente,Varzea,4,1,Rua Amaro Gomes Poroca,0.191,0.56,11,41
+mês,recorrente,Afogados,5,1,Est Do Bongi Armando Da Fonte,0.191,0.425,3,17
+mês,recorrente,Imbiribeira,6,1,Rua Conego Lira,0.191,0.505,5,11
+mês,recorrente,Imbiribeira,6,1,Rua Nossa Senhora Do Carmo,0.191,0.507,3,29
+mês,recorrente,Pina,6,1,Av Republica Do Libano,0.191,0.505,4,26
+mês,recorrente,Sao Jose,1,1,Rua Sao Joao,0.19,0.522,5,19
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Luiz Malheiros,0.19,0.5,4,12
+mês,recorrente,Jordao,6,1,Prc Do Jordao,0.19,0.445,2,4
+mês,recorrente,Jordao,6,1,Rua Silva Jardim,0.19,0.491,3,20
+mês,recorrente,Pina,6,1,Av Jemil Asfora,0.19,0.515,5,27
+mês,recorrente,Boa Vista,1,1,Rua Do Sossego,0.189,0.552,6,25
+mês,recorrente,Mangabeira,3,3,Rua Do Cinema,0.189,0.486,5,20
+mês,recorrente,Campina do Barreto,2,2,Rua Joao Praxedes De Oliveira Filho,0.188,0.473,3,13
+mês,recorrente,Areias,5,1,Rua Oiticica Lins,0.187,0.468,3,1
+mês,recorrente,Mustardinha,5,1,Prc A B C,0.187,0.48,4,5
+mês,recorrente,Imbiribeira,6,1,Rua Prof Pedro Augusto Carneiro Leao,0.187,0.512,4,32
+mês,recorrente,Ipsep,6,1,Rua Professor Nelson Melo,0.187,0.513,7,42
+mês,recorrente,Recife,1,2,Rua Domingos Jose Martins,0.186,0.472,3,3
+mês,recorrente,Santo Amaro,1,1,Rua Almirante Custodio De Melo,0.186,0.404,2,34
+mês,recorrente,Guabiraba,3,2,Rua Capitao Benedito Braganca,0.186,0.453,4,11
+mês,recorrente,Areias,5,1,Prc Alfredo Pinto,0.186,0.552,5,30
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Ibicare,0.186,0.386,2,2
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Serra Bonga,0.186,0.474,3,11
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Soldado Virgilio Lucio,0.186,0.474,3,4
+mês,recorrente,Imbiribeira,6,1,Av Dom Joao Vi,0.186,0.51,3,45
+mês,recorrente,Imbiribeira,6,1,Rua Cinco De Maio,0.186,0.437,2,12
+mês,recorrente,Campo Grande,2,2,Rua Joao Bento Batista,0.185,0.501,7,27
+mês,recorrente,Gracas,3,2,Rua Dom Sebastiao Leme,0.185,0.457,4,18
+mês,recorrente,Varzea,4,1,Rua Agricolandia,0.185,0.522,4,18
+mês,recorrente,Jiquia,5,1,Rua Antonio Carneiro,0.185,0.538,8,10
+mês,recorrente,Ibura,6,1,Av Dois Rios,0.185,0.505,5,41
+mês,recorrente,Sao Jose,1,1,Rua Realeza,0.184,0.528,3,25
+mês,recorrente,Madalena,4,1,Rua Real Da Torre,0.184,0.388,3,8
+mês,recorrente,Imbiribeira,6,1,Rua Adalberto Marroquim,0.184,0.457,3,6
+mês,recorrente,Jordao,6,1,Rua Antonio Rocha,0.184,0.481,3,4
+mês,recorrente,Jordao,6,1,Rua Tupinancy,0.184,0.481,3,4
+mês,recorrente,Apipucos,3,3,1Tr Serra Pelada,0.183,0.426,4,35
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Coronel Manoel Alves De Queiroz,0.183,0.49,4,15
+mês,recorrente,Boa Vista,1,1,Rua Herminia Lins,0.182,0.51,4,20
+mês,recorrente,Cabanga,1,1,Pte Governador Paulo Guerra,0.182,0.489,2,12
+mês,recorrente,Campo Grande,2,2,Rua Governador Dix Sept Rosado,0.182,0.532,4,28
+mês,recorrente,Boa Viagem,6,1,Rua Dez De Julho,0.182,0.493,3,25
+mês,recorrente,Boa Viagem,6,1,Rua Verdes Mares,0.182,0.479,3,5
+mês,recorrente,Jordao,6,1,Rua Pianco,0.182,0.495,4,13
+mês,recorrente,Pina,6,1,Av Dr Dirceu Velloso Toscano De Brito,0.182,0.501,5,26
+mês,recorrente,Pina,6,1,Rua Do Girassol,0.182,0.49,4,41
+mês,recorrente,Campo Grande,2,2,Rua Catulo Da Paixao Cearense,0.181,0.418,3,5
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Engenho Titara,0.181,0.469,4,20
+mês,recorrente,Coelhos,1,4,Rua Prefeito Jorge Martins,0.18,0.505,3,31
+mês,recorrente,Santana,3,2,Rua Samuel Farias,0.18,0.448,3,5
+mês,recorrente,Jordao,6,1,Rua Joraci Camargo,0.18,0.483,4,32
+mês,recorrente,Varzea,4,1,Rua Joao Francisco Lisboa,0.179,0.508,3,12
+mês,recorrente,Afogados,5,1,Rua Jacira,0.179,0.422,3,3
+mês,recorrente,Afogados,5,1,Rua Sao Bento Do Sul,0.179,0.416,4,4
+mês,recorrente,Pina,6,1,2Tr Osvaldo Machado,0.179,0.407,3,10
+mês,recorrente,Arruda,2,3,Rua Zeferino Agra,0.178,0.426,3,4
+mês,recorrente,Dois Unidos,2,3,Rua Da Mata,0.178,0.494,5,25
+mês,recorrente,Monteiro,3,3,Rua Jorge De Albuquerque,0.178,0.385,2,6
+mês,recorrente,San Martin,5,1,Av Consul Vilares Fragoso,0.178,0.476,5,6
+mês,recorrente,Zumbi,4,1,Rua Canto Alegre,0.177,0.455,3,11
+mês,recorrente,Areias,5,1,Rua Ernesto Nazareth,0.177,0.507,3,4
+mês,recorrente,Boa Viagem,6,1,Rua Jornalista Francisco Almeida,0.177,0.479,3,26
+mês,recorrente,Boa Viagem,6,1,Rua Projetada,0.177,0.472,5,28
+mês,recorrente,Nova Descoberta,3,3,Rua Alto Do Reservatorio,0.176,0.444,5,13
+mês,recorrente,Iputinga,4,1,Av Mario Alvares Pereira De Lyra,0.176,0.509,3,13
+mês,recorrente,Madalena,4,1,Rua J A Da Silveira,0.176,0.401,3,11
+mês,recorrente,Boa Viagem,6,1,Rua Prof Pedro Augusto Carneiro Leao,0.176,0.484,4,25
+mês,recorrente,Jordao,6,1,Av Julio Cesar,0.176,0.476,3,4
+mês,recorrente,Pina,6,1,Rua Amazonas,0.176,0.493,6,41
+mês,recorrente,Varzea,4,1,Rua Umburetama,0.175,0.376,2,3
+mês,recorrente,Barro,5,1,Rua Major Chagas De Oliveira,0.175,0.543,7,27
+mês,recorrente,Boa Viagem,6,1,Rua Engenheiro Lauro Borba,0.175,0.446,4,20
+mês,recorrente,Boa Vista,1,1,Rua Dr Leopoldo Lins,0.174,0.5,6,41
+mês,recorrente,Recife,1,2,Rua Do Ocidente,0.174,0.512,4,26
+mês,recorrente,Santo Antonio,1,1,Rua Do Fogo,0.174,0.509,5,33
+mês,recorrente,Tamarineira,3,2,Est Do Arraial,0.174,0.428,3,7
+mês,recorrente,Afogados,5,1,Rua Do Despacho,0.174,0.563,5,13
+mês,recorrente,Bongi,5,1,Rua Jose Moreira Reis,0.174,0.524,5,5
+mês,recorrente,Jordao,6,1,Rua Serra Dourada,0.174,0.454,4,18
+mês,recorrente,Pina,6,1,Rua Quixada,0.174,0.407,2,34
+mês,recorrente,Santo Amaro,1,1,Rua Mario Albuquerque Cavalcante,0.173,0.49,4,30
+mês,recorrente,Macaxeira,3,2,Rua Campo Da Uniao,0.173,0.438,4,46
+mês,recorrente,Cordeiro,4,1,Rua Santos Moreira,0.173,0.378,2,5
+mês,recorrente,Imbiribeira,6,1,Rua Gilvandro Soares,0.173,0.477,5,26
+mês,recorrente,Areias,5,1,Rua Aurora Cacote,0.172,0.473,6,7
+mês,recorrente,Tejipio,5,1,Av Doutor Jose Rufino,0.172,0.53,7,18
+mês,recorrente,Brasilia Teimosa,6,1,Rua Saramunete,0.172,0.47,8,52
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua General Coelho Cintra,0.172,0.47,4,45
+mês,recorrente,Ibura,6,1,Rua Rosario Do Oeste,0.172,0.447,5,27
+mês,recorrente,Santo Amaro,1,1,Rua Da Fundicao,0.171,0.481,3,10
+mês,recorrente,Alto do Mandu   Sitio Grande,3,3,Rua Siriji,0.171,0.445,4,21
+mês,recorrente,Cidade Universitaria,4,2,Av Professor Luiz Freire,0.171,0.495,5,26
+mês,recorrente,Imbiribeira,6,1,Est Do Frigorifico,0.171,0.428,3,11
+mês,recorrente,Jordao,6,1,Rua Campinorte,0.171,0.45,3,33
+mês,recorrente,Ilha Joana Bezerra,1,4,Rua S D 9806,0.17,0.426,2,13
+mês,recorrente,Santo Amaro,1,1,Rua Bispo Cardoso Ayres,0.17,0.478,3,28
+mês,recorrente,Torre,4,1,Rua Apuiares,0.17,0.367,3,9
+mês,recorrente,Mustardinha,5,1,Rua Celia,0.17,0.369,5,43
+mês,recorrente,Boa Viagem,6,1,Rua Lusiania,0.17,0.4,4,16
+mês,recorrente,Imbiribeira,6,1,Rua Zeferino Pinho,0.17,0.445,3,11
+mês,recorrente,Jordao,6,1,Rua Barra Dos Coqueiros,0.17,0.442,3,34
+mês,recorrente,Jordao,6,1,Rua Ubyracy,0.17,0.448,3,21
+mês,recorrente,Madalena,4,1,Av Jose Goncalves De Medeiros,0.169,0.413,2,4
+mês,recorrente,Brasilia Teimosa,6,1,Rua Albacora,0.169,0.432,3,13
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Afonso Arinos,0.169,0.481,3,35
+mês,recorrente,Campo Grande,2,2,Rua Marques De Abrantes,0.168,0.455,5,24
+mês,recorrente,Nova Descoberta,3,3,Rua Dona Nita,0.168,0.43,5,14
+mês,recorrente,Caxanga,4,1,Rua Deputado Adalberto Guerra,0.168,0.438,3,17
+mês,recorrente,Cordeiro,4,1,Rua Doutor Joao Lacerda,0.168,0.505,5,14
+mês,recorrente,Coqueiral,5,4,Rua Alto Da Bela Vista,0.168,0.377,2,1
+mês,recorrente,Ibura,6,1,Rua Francisco Beltrao,0.168,0.448,3,11
+mês,recorrente,Ibura,6,1,Rua Lizarda,0.168,0.461,7,59
+mês,recorrente,Imbiribeira,6,1,Rua Engenheiro Otavio Arantes,0.168,0.426,3,5
+mês,recorrente,Madalena,4,1,Rua Benfica,0.167,0.427,3,13
+mês,recorrente,Afogados,5,1,Rua Lavinia,0.167,0.515,6,6
+mês,recorrente,Brasilia Teimosa,6,1,Prc Abelardo Baltar,0.167,0.444,3,32
+mês,recorrente,Ibura,6,1,Rua Assis Brasil,0.167,0.425,2,18
+mês,recorrente,Pina,6,1,Rua Bem Te Vi,0.167,0.476,4,45
+mês,recorrente,Santo Antonio,1,1,Ref Da Rua Floriano Peixoto,0.166,0.498,8,31
+mês,recorrente,Vasco da Gama,3,3,Rua Mirador,0.166,0.437,6,27
+mês,recorrente,Caxanga,4,1,Rua Dr Antonio H De Castro Neto,0.166,0.43,3,11
+mês,recorrente,Varzea,4,1,Rua Professora Argemira Rego Barros,0.166,0.514,4,18
+mês,recorrente,Zumbi,4,1,Rua Caratinga,0.166,0.441,3,14
+mês,recorrente,Boa Vista,1,1,Rua Da Saudade,0.165,0.459,3,19
+mês,recorrente,Sao Jose,1,1,Trv Do Raposo,0.165,0.442,3,6
+mês,recorrente,Afogados,5,1,Rua Barao De Japarana,0.165,0.538,7,21
+mês,recorrente,Areias,5,1,Rua Capitao Jeronimo Amaral,0.165,0.517,3,6
+mês,recorrente,Ipsep,6,1,Rua Aristides Lobo,0.165,0.434,2,16
+mês,recorrente,Dois Unidos,2,3,Rua Divisopolis,0.164,0.492,6,46
+mês,recorrente,Linha do Tiro,2,3,Rua Alto Dos Coqueiros,0.164,0.466,4,25
+mês,recorrente,Passarinho,3,2,Rua Corrego Do Carroceiro,0.164,0.352,2,5
+mês,recorrente,San Martin,5,1,Rua Farroupilha,0.164,0.494,5,11
+mês,recorrente,Sao Jose,1,1,Rua Coracao De Maria,0.163,0.475,3,19
+mês,recorrente,Arruda,2,3,Rua Da Regeneracao,0.163,0.427,2,9
+mês,recorrente,Iputinga,4,1,Av Luiz De Lacerda,0.163,0.485,6,20
+mês,recorrente,Varzea,4,1,2Tr Gravata,0.163,0.372,3,10
+mês,recorrente,Areias,5,1,Rua Olimpio Costa,0.163,0.492,5,5
+mês,recorrente,Imbiribeira,6,1,Rua Dr Valdir Pessoa,0.163,0.467,5,39
+mês,recorrente,Santo Amaro,1,1,Rua General Jose Semeao,0.162,0.459,2,29
+mês,recorrente,Afogados,5,1,Av Mustardinha,0.162,0.382,2,4
+mês,recorrente,Afogados,5,1,Rua Luiz Pereira De Farias,0.162,0.524,6,22
+mês,recorrente,Bongi,5,1,Rua Desembargador Joao Batista,0.162,0.504,7,20
+mês,recorrente,Mustardinha,5,1,Av Manoel Goncalves Da Luz,0.162,0.485,4,9
+mês,recorrente,Boa Viagem,6,1,Rua Cruzeiro Do Forte,0.162,0.422,4,26
+mês,recorrente,Boa Viagem,6,1,Rua Solidonio Leite,0.162,0.459,3,43
+mês,recorrente,Brasilia Teimosa,6,1,Trv Brasilia Formosa,0.162,0.467,3,17
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Dacy De Melo Cavalcanti,0.162,0.457,5,64
+mês,recorrente,Campo Grande,2,2,Rua Pretextato Maciel,0.161,0.461,4,25
+mês,recorrente,Madalena,4,1,Rua Campos Sales,0.161,0.483,7,21
+mês,recorrente,Varzea,4,1,Rua Bernardim Ribeiro,0.161,0.426,4,15
+mês,recorrente,Jardim Sao Paulo,5,1,Rua Lorena,0.161,0.476,5,13
+mês,recorrente,Brasilia Teimosa,6,1,Rua Golfinho,0.161,0.451,6,42
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Jaguaruna,0.161,0.404,4,25
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Vale Do Cariri,0.161,0.451,6,48
+mês,recorrente,Ipsep,6,1,Rua Helio Brandao,0.161,0.448,7,55
+mês,recorrente,Caxanga,4,1,Rua Tabeliao Joao Roma,0.16,0.36,3,11
+mês,recorrente,Ibura,6,1,Rua Porto Nacional,0.16,0.438,3,34
+mês,recorrente,Pina,6,1,Rua Nogueira De Souza,0.16,0.392,3,13
+mês,recorrente,Recife,1,2,Trv Tuyuty,0.159,0.492,3,32
+mês,recorrente,Bomba do Hemeterio,2,3,Rua Cha De Alegria,0.159,0.394,3,12
+mês,recorrente,Nova Descoberta,3,3,Rua Nova Descoberta,0.159,0.396,4,4
+mês,recorrente,Afogados,5,1,Rua Turiacu,0.159,0.529,9,46
+mês,recorrente,Imbiribeira,6,1,Rua Nova Verona,0.159,0.449,4,49
+mês,recorrente,Dois Unidos,2,3,Rua Leoncio Rodrigues,0.158,0.402,3,5
+mês,recorrente,Apipucos,3,3,Rua Caetes,0.158,0.41,3,8
+mês,recorrente,Espinheiro,3,2,Rua Conselheiro Portela,0.157,0.439,5,36
+mês,recorrente,Barro,5,1,Rua Padre Nobrega,0.157,0.465,4,14
+mês,recorrente,Encruzilhada,2,2,Rua Nossa Senhora De Pompeia,0.156,0.383,2,4
+mês,recorrente,Afogados,5,1,Rua Da Bacia,0.156,0.441,7,10
+mês,recorrente,Santo Amaro,1,1,Rua Capitao Lima,0.155,0.445,2,10
+mês,recorrente,Sao Jose,1,1,Rua Padre Floriano,0.155,0.398,3,68
+mês,recorrente,Beberibe,2,3,Rua Coronel Luciano Melo,0.155,0.384,2,8
+mês,recorrente,Jaqueira,3,2,Prc Professor Fleming,0.155,0.386,3,13
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Ibira,0.155,0.379,2,8
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Sao Joao,0.155,0.444,3,13
+mês,recorrente,Ibura,6,1,Av Projetada,0.155,0.426,2,32
+mês,recorrente,Jordao,6,1,Rua Naja,0.155,0.408,3,11
+mês,recorrente,Boa Vista,1,1,Rua Da Uniao,0.154,0.474,5,38
+mês,recorrente,Cabanga,1,1,Av Sul Gov Cid Sampaio,0.154,0.357,2,10
+mês,recorrente,Passarinho,3,2,Rua Corrego Da Bica,0.154,0.41,3,20
+mês,recorrente,Boa Vista,1,1,Rua Velha,0.153,0.447,2,39
+mês,recorrente,Casa Amarela,3,2,Av Pedro Allain,0.153,0.419,4,31
+mês,recorrente,Torroes,4,1,Av Professor Artur Coutinho,0.153,0.529,5,52
+mês,recorrente,Boa Viagem,6,1,Rua Henrique Capitulino,0.153,0.44,3,12
+mês,recorrente,Ibura,6,1,Rua Ribeirao Das Neves,0.153,0.44,4,32
+mês,recorrente,Ilha Joana Bezerra,1,4,Vdo Papa Joao Paulo Ii,0.152,0.448,5,28
+mês,recorrente,Agua Fria,2,3,Rua Atalanta,0.152,0.392,4,39
+mês,recorrente,Dois Unidos,2,3,Rua Bacharel Severino Torres Galindo Do Nascimento,0.152,0.407,2,34
+mês,recorrente,Varzea,4,1,Rua Dr Aluisio Marques,0.152,0.385,3,16
+mês,recorrente,Jiquia,5,1,Rua Jaguaruana,0.152,0.506,4,27
+mês,recorrente,Boa Viagem,6,1,Rua Jonathas De Vasconcelos,0.152,0.41,5,40
+mês,recorrente,Gracas,3,2,Rua Alberto Paiva,0.151,0.403,3,7
+mês,recorrente,Sitio dos Pintos   Sao Bras,3,3,Rua Projetada,0.151,0.429,6,53
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Engenho Babilonia,0.151,0.403,3,20
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Engenho Mata Limpa,0.151,0.423,4,33
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Poeta Mauro Mota,0.151,0.39,3,20
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Sao Marcos,0.151,0.403,3,18
+mês,recorrente,Sao Jose,1,1,Rua Do Porao,0.15,0.438,3,18
+mês,recorrente,Soledade,1,2,Av Conde Da Boa Vista,0.15,0.381,2,13
+mês,recorrente,Vasco da Gama,3,3,1Tr Alto Do Eucalipto,0.15,0.371,2,21
+mês,recorrente,Torroes,4,1,Rua Desembargador Capistrano De Moraes E Silva,0.15,0.483,2,25
+mês,recorrente,Torroes,4,1,Rua Tumiritinga,0.15,0.453,8,32
+mês,recorrente,San Martin,5,1,Rua Coronel Mizael De Mendonca,0.15,0.506,3,28
+mês,recorrente,Sancho,5,1,Rua Dr Urbano Vitalino De Melo Filho,0.15,0.451,5,20
+mês,recorrente,Ilha Joana Bezerra,1,4,Av Agostinho Gomes,0.149,0.399,2,12
+mês,recorrente,Campina do Barreto,2,2,Rua Evanildo Coelho De Araujo,0.149,0.381,2,13
+mês,recorrente,Campo Grande,2,2,Rua Projetada,0.149,0.429,5,28
+mês,recorrente,Linha do Tiro,2,3,Trv Marcia Mendes,0.149,0.458,3,34
+mês,recorrente,Passarinho,3,2,Rua Varzea Do Gilo,0.149,0.395,3,11
+mês,recorrente,Afogados,5,1,Rua Coronel Alfredo Duarte,0.149,0.382,3,10
+mês,recorrente,Afogados,5,1,Rua Vinte E Um De Abril,0.149,0.478,4,8
+mês,recorrente,Areias,5,1,Ref Da Avenida Recife 1,0.149,0.508,4,48
+mês,recorrente,Brasilia Teimosa,6,1,Rua Armando Pina,0.149,0.382,3,23
+mês,recorrente,Ibura,6,1,Av Centenario Alberto Santos Dumont,0.149,0.408,1,5
+mês,recorrente,Ibura,6,1,Rua Patio Do Povo,0.149,0.431,5,47
+mês,recorrente,Ibura,6,1,Rua Rio Tapado,0.149,0.414,2,38
+mês,recorrente,Ilha do Leite,1,2,Prc Miguel De Cervantes,0.148,0.469,3,27
+mês,recorrente,Agua Fria,2,3,Rua Corrego Do Deodato,0.148,0.388,2,8
+mês,recorrente,Linha do Tiro,2,3,Rua Aguas De Prata,0.148,0.405,2,14
+mês,recorrente,Caxanga,4,1,Rua Zuleide Moura,0.148,0.405,5,29
+mês,recorrente,Torroes,4,1,Rua Leila Felix Karam,0.148,0.428,2,9
+mês,recorrente,Jardim Sao Paulo,5,1,Rua Da Capela,0.148,0.385,3,14
+mês,recorrente,Encruzilhada,2,2,Rua Dona Elvira,0.147,0.424,4,25
+mês,recorrente,Brasilia Teimosa,6,1,Rua Das Saudades,0.147,0.418,2,43
+mês,recorrente,Boa Vista,1,1,Rua Dom Bosco,0.146,0.449,5,40
+mês,recorrente,Santo Antonio,1,1,Rua Siqueira Campos,0.146,0.392,1,14
+mês,recorrente,Dois Unidos,2,3,Av Chagas Ferreira,0.146,0.414,4,34
+mês,recorrente,Boa Viagem,6,1,Av Lino Jordao,0.146,0.387,3,24
+mês,recorrente,Imbiribeira,6,1,Trv Sargento Silvio Delmar Hollembach,0.146,0.374,3,21
+mês,recorrente,Boa Vista,1,1,Rua Da Soledade,0.145,0.445,2,39
+mês,recorrente,Cordeiro,4,1,Rua Francisco Vita,0.145,0.459,7,25
+mês,recorrente,Cacote,5,1,Av Chico Mendes,0.145,0.45,5,20
+mês,recorrente,Curado,5,1,Rua Dr George William Butler,0.145,0.433,2,21
+mês,recorrente,Boa Viagem,6,1,Rua Professor Jose Brandao,0.145,0.431,4,35
+mês,recorrente,Ibura,6,1,Rua Da Mangueira,0.145,0.405,5,47
+mês,recorrente,Paissandu,1,1,Pte Prefeito Lima De Castro,0.144,0.421,2,43
+mês,recorrente,Cordeiro,4,1,Rua Padre Leonardo Greco,0.144,0.384,5,35
+mês,recorrente,Varzea,4,1,Rua Underval,0.144,0.359,4,27
+mês,recorrente,Sancho,5,1,Rua Jornalista Adonias Lira C De Moura,0.144,0.429,2,13
+mês,recorrente,Boa Viagem,6,1,Rua Dona Benvinda De Farias,0.144,0.373,2,11
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Presidente Medici,0.144,0.359,2,4
+mês,recorrente,Santo Amaro,1,1,Rua Coelho Leite,0.143,0.439,4,34
+mês,recorrente,Sao Jose,1,1,Prc Frei Caneca,0.143,0.445,2,55
+mês,recorrente,Sao Jose,1,1,Rua Sao Jose Do Ribamar,0.143,0.448,4,68
+mês,recorrente,Beberibe,2,3,Rua Do Anil,0.143,0.405,3,26
+mês,recorrente,Alto Jose do Pinho,3,3,Av Norte Miguel Arraes De Alencar,0.143,0.414,5,67
+mês,recorrente,Casa Amarela,3,2,Rua Casa Amarela,0.143,0.388,2,16
+mês,recorrente,Afogados,5,1,Rua Bezerra Da Palma,0.143,0.465,4,12
+mês,recorrente,Sancho,5,1,Av Tempo Feliz,0.143,0.471,5,22
+mês,recorrente,Pina,6,1,Rua Francisco Valpassos,0.143,0.4,3,24
+mês,recorrente,Santo Amaro,1,1,Rua Dois De Julho,0.142,0.408,3,27
+mês,recorrente,Santo Amaro,1,1,Rua Sete De Setembro,0.142,0.43,3,27
+mês,recorrente,Macaxeira,3,2,Rua Deputado Gomes De Sa,0.142,0.391,3,12
+mês,recorrente,Torre,4,1,Rua Zilda S De Santana,0.142,0.402,4,9
+mês,recorrente,Varzea,4,1,Rua Felipe Guerra,0.142,0.384,3,26
+mês,recorrente,Afogados,5,1,Rua Rubiacea,0.142,0.487,6,31
+mês,recorrente,Areias,5,1,Rua Barros Sobrinho,0.142,0.457,4,14
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Engenho Bem Querer,0.142,0.382,2,4
+mês,recorrente,Ibura,6,1,Rua Flores Da Cunha,0.142,0.371,3,26
+mês,recorrente,Jordao,6,1,Rua Sao Domingos,0.142,0.399,5,46
+mês,recorrente,Boa Vista,1,1,Rua Da Matriz,0.141,0.438,4,40
+mês,recorrente,Cabanga,1,1,Prc Governador Paulo Guerra,0.141,0.417,2,46
+mês,recorrente,Santo Amaro,1,1,Rua Aluisio De Azevedo,0.141,0.456,3,27
+mês,recorrente,Santo Antonio,1,1,Rua Sao Pedro,0.141,0.385,1,21
+mês,recorrente,Jaqueira,3,2,Rua Muniz Tavares,0.141,0.397,2,14
+mês,recorrente,Nova Descoberta,3,3,Rua Alto Das Pedrinhas,0.141,0.358,2,25
+mês,recorrente,Ilha do Retiro,4,1,Rua Tabaiares,0.141,0.522,3,46
+mês,recorrente,Iputinga,4,1,Rua Gaspar Perez,0.141,0.427,2,12
+mês,recorrente,Torroes,4,1,Rua Tota Ventura,0.141,0.423,2,11
+mês,recorrente,Varzea,4,1,Rua Expedicionario Antonio Romano,0.141,0.383,3,17
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Jose Do Patrocinio,0.141,0.374,2,11
+mês,recorrente,Pina,6,1,Rua Alexandrino Martins Rodrigues,0.141,0.38,3,26
+mês,recorrente,Cabanga,1,1,Rua Capitao Temudo,0.14,0.419,2,51
+mês,recorrente,Ilha Joana Bezerra,1,4,Rua Desembargador Otilio Neiva,0.14,0.407,2,25
+mês,recorrente,Campo Grande,2,2,Rua Franklin Tavora,0.14,0.377,3,13
+mês,recorrente,Varzea,4,1,Rua Diogenes Sampaio,0.14,0.38,3,20
+mês,recorrente,Boa Viagem,6,1,Rua Baltazar Pereira,0.14,0.366,4,41
+mês,recorrente,Jordao,6,1,Rua Florestal,0.14,0.362,2,14
+mês,recorrente,Fundao,2,3,Rua Major Davino,0.139,0.363,2,14
+mês,recorrente,Brejo da Guabiraba,3,3,Rua Alexandrina,0.139,0.377,2,11
+mês,recorrente,Passarinho,3,2,Rua Da Linha,0.139,0.42,6,59
+mês,recorrente,Ibura,6,1,Rua Rio Dos Cedros,0.139,0.376,3,27
+mês,recorrente,Ipsep,6,1,Rua Irapua,0.139,0.359,1,6
+mês,recorrente,Ilha Joana Bezerra,1,4,Rua Do Campo,0.138,0.447,4,33
+mês,recorrente,Dois Unidos,2,3,Rua Corrego Do Curio,0.138,0.372,3,18
+mês,recorrente,Dois Unidos,2,3,Rua Jose Menezes De Lyra Filho,0.138,0.403,3,26
+mês,recorrente,Macaxeira,3,2,Rua Tereza Carneiro,0.138,0.384,3,12
+mês,recorrente,Morro da Conceicao,3,2,Rua Adalberto Guerra,0.138,0.384,3,12
+mês,recorrente,Cidade Universitaria,4,2,Rua Academico Helio Ramos,0.138,0.451,5,27
+mês,recorrente,Varzea,4,1,Rua Conego Jose Fernandes Machado,0.138,0.402,7,37
+mês,recorrente,Boa Viagem,6,1,Rua Dr Nylo Dornellas Camara,0.138,0.379,4,34
+mês,recorrente,Ipsep,6,1,Rua Aristarcho Lopes,0.138,0.382,2,33
+mês,recorrente,Jordao,6,1,Rua Projetada,0.138,0.39,4,38
+mês,recorrente,Santo Antonio,1,1,Rua Larga Do Rosario,0.137,0.436,5,50
+mês,recorrente,Agua Fria,2,3,Rua Elza,0.137,0.406,4,33
+mês,recorrente,Bomba do Hemeterio,2,3,Rua Projetada,0.137,0.382,3,31
+mês,recorrente,Dois Unidos,2,3,Rua Vinte E Um De Junho,0.137,0.357,2,7
+mês,recorrente,Gracas,3,2,Rua Paulino Gomes De Souza,0.137,0.383,3,15
+mês,recorrente,Santana,3,2,Rua Afonso De Albuquerque Melo,0.137,0.389,2,25
+mês,recorrente,Cordeiro,4,1,Rua Professor Evaldo Altino,0.137,0.367,3,17
+mês,recorrente,Madalena,4,1,Rua Canguaretama,0.137,0.389,4,33
+mês,recorrente,Areias,5,1,Av Izabel De Goes,0.137,0.429,4,11
+mês,recorrente,San Martin,5,1,Av Engenheiro Abdias De Carvalho,0.137,0.48,3,49
+mês,recorrente,Ibura,6,1,Rua Azeitona,0.137,0.378,3,28
+mês,recorrente,Ilha do Leite,1,2,Rua General Joaquim Inacio,0.136,0.432,4,39
+mês,recorrente,Cajueiro,2,2,Rua Alice Tibirica,0.136,0.415,5,39
+mês,recorrente,Encruzilhada,2,2,Rua Inacio Galvao Dos Santos,0.136,0.401,3,24
+mês,recorrente,Nova Descoberta,3,3,Rua Antonio Carneiro,0.136,0.359,4,10
+mês,recorrente,Vasco da Gama,3,3,Rua Vila Um Por Todos,0.136,0.357,4,12
+mês,recorrente,Varzea,4,1,Av Joaquim Ribeiro,0.136,0.462,2,25
+mês,recorrente,Barro,5,1,Rua Professora Carolina Morais,0.136,0.395,5,8
+mês,recorrente,Jordao,6,1,Rua Mimoso,0.136,0.361,3,32
+mês,recorrente,Pina,6,1,Rua Estudante Jeremias Bastos,0.136,0.391,3,65
+mês,recorrente,Bomba do Hemeterio,2,3,Rua Tamboara,0.135,0.399,3,27
+mês,recorrente,Dois Unidos,2,3,Rua Engenheiro Celio De Carli,0.135,0.349,3,18
+mês,recorrente,Hipodromo,2,2,Rua Nogueira Lima,0.135,0.419,2,32
+mês,recorrente,Macaxeira,3,2,Av Jose Americo De Almeida,0.135,0.372,5,45
+mês,recorrente,Afogados,5,1,Rua Do Mangue,0.135,0.461,4,19
+mês,recorrente,Coqueiral,5,4,Rua Joao De Souza Canto,0.135,0.351,2,6
+mês,recorrente,Jiquia,5,1,Rua Jorge Abrantes,0.135,0.399,6,10
+mês,recorrente,Boa Viagem,6,1,Rua Doutor Jose Pacifico Pereira,0.135,0.372,2,12
+mês,recorrente,Boa Viagem,6,1,Rua Senador Helio Coutinho,0.135,0.378,1,27
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Parintins,0.135,0.415,2,21
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Projetada,0.135,0.384,4,46
+mês,recorrente,Santo Antonio,1,1,Av Nossa Senhora Do Carmo,0.134,0.372,3,25
+mês,recorrente,Santo Antonio,1,1,C De Santa Rita,0.134,0.429,3,32
+mês,recorrente,Sao Jose,1,1,Rua Do Maruim,0.134,0.393,5,34
+mês,recorrente,Porto da Madeira,2,3,Rua Capitao Salgueiro,0.134,0.368,2,14
+mês,recorrente,Gracas,3,2,Rua Gervasio Fioravante,0.134,0.372,3,18
+mês,recorrente,Iputinga,4,1,Prc Do Bom Pastor,0.134,0.431,3,25
+mês,recorrente,Areias,5,1,Rua Fernando Griz,0.134,0.39,5,16
+mês,recorrente,Barro,5,1,Av Central,0.134,0.427,6,37
+mês,recorrente,Jordao,6,1,Rua Miravania,0.134,0.37,2,8
+mês,recorrente,Pina,6,1,Rua Joaquim Carneiro Da Silva,0.134,0.386,3,75
+mês,recorrente,Encruzilhada,2,2,Rua Vicente Pinzon,0.133,0.376,4,13
+mês,recorrente,Casa Amarela,3,2,Rua Projetada,0.133,0.394,6,55
+mês,recorrente,Caxanga,4,1,Rua Deputado Jose Francisco De Melo Cavalcanti,0.133,0.432,5,27
+mês,recorrente,Madalena,4,1,Rua Carlos Gomes,0.133,0.352,2,62
+mês,recorrente,Cacote,5,1,Rua Dona Ana Aurora,0.133,0.382,2,8
+mês,recorrente,Boa Viagem,6,1,Rua Francisco Da Cunha,0.133,0.37,3,32
+mês,recorrente,Brasilia Teimosa,6,1,Rua Estrela Do Mar,0.133,0.388,4,79
+mês,recorrente,Ibura,6,1,Rua Fernando Tomaz Da Silva,0.133,0.4,5,59
+mês,recorrente,Imbiribeira,6,1,Rua Itamaraca,0.133,0.364,3,32
+mês,recorrente,Ilha Joana Bezerra,1,4,Rua Ibipora,0.132,0.384,2,20
+mês,recorrente,Santo Amaro,1,1,Rua Dos Casados,0.132,0.391,3,27
+mês,recorrente,Alto Santa Terezinha,2,3,Rua Professor Jose Amarino Dos Reis,0.132,0.42,5,53
+mês,recorrente,Peixinhos,2,2,Rua Farias Neves,0.132,0.387,3,31
+mês,recorrente,Cordeiro,4,1,Rua Formosa,0.132,0.368,3,23
+mês,recorrente,Varzea,4,1,Rua Bom Repouso,0.132,0.385,4,19
+mês,recorrente,Imbiribeira,6,1,Rua Joao Murilo De Oliveira,0.132,0.409,2,84
+mês,recorrente,Ipsep,6,1,Rua Esdras Farias,0.132,0.372,1,32
+mês,recorrente,Jordao,6,1,Rua Petrolandia,0.132,0.389,4,48
+mês,recorrente,Iputinga,4,1,Trv Capitao Aurelio De Araujo,0.131,0.404,4,42
+mês,recorrente,Madalena,4,1,Rua Dr Severino Pinheiro,0.131,0.406,3,11
+mês,recorrente,Boa Viagem,6,1,Rua Ana Camelo Da Silva,0.131,0.357,3,62
+mês,recorrente,Paissandu,1,1,Rua Epaminondas De Melo,0.13,0.357,2,4
+mês,recorrente,Campina do Barreto,2,2,Rua General Leonidas De Lima Botelho,0.13,0.418,6,55
+mês,recorrente,Iputinga,4,1,Rua Borges Da Fonseca,0.13,0.387,2,14
+mês,recorrente,Jordao,6,1,Rua Bahia,0.13,0.384,5,59
+mês,recorrente,Pina,6,1,Rua Artur Licio,0.13,0.373,3,34
+mês,recorrente,Santo Amaro,1,1,Rua Arnobio Marques,0.129,0.417,5,42
+mês,recorrente,Santo Amaro,1,1,Rua Projetada,0.129,0.407,5,46
+mês,recorrente,Torreao,2,2,Av Norte Miguel Arraes De Alencar,0.129,0.397,4,34
+mês,recorrente,Afogados,5,1,Rua Aparecida,0.129,0.426,9,59
+mês,recorrente,San Martin,5,1,Rua Tenente Mindelo,0.129,0.411,7,61
+mês,recorrente,Encruzilhada,2,2,Rua Antonio Rangel,0.128,0.359,3,19
+mês,recorrente,Vasco da Gama,3,3,Rua Santa Clara,0.128,0.35,3,45
+mês,recorrente,Afogados,5,1,Av Central,0.128,0.411,4,28
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Gloria Do Goita,0.128,0.364,1,38
+mês,recorrente,Apipucos,3,3,Rua Dona Laura Gondim,0.127,0.366,3,21
+mês,recorrente,Macaxeira,3,2,Rua Flavio Guerra,0.127,0.366,3,21
+mês,recorrente,Passarinho,3,2,Rua Benfica,0.127,0.359,3,24
+mês,recorrente,Areias,5,1,Rua Jupiracy,0.127,0.418,3,18
+mês,recorrente,Barro,5,1,Rua Abigail Araujo,0.127,0.362,6,20
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Flor De Maria,0.127,0.351,1,38
+mês,recorrente,Jordao,6,1,4Tr Dona Carentina,0.127,0.379,3,35
+mês,recorrente,Jordao,6,1,Rua Dr Andrade Lyra,0.127,0.369,5,61
+mês,recorrente,Cajueiro,2,2,Av Sebastiao Salazar,0.126,0.384,4,48
+mês,recorrente,Madalena,4,1,Rua Padre Anchieta,0.126,0.398,2,19
+mês,recorrente,Torroes,4,1,Rua Epaminondas Cristovao De Oliveira,0.126,0.458,4,48
+mês,recorrente,Cacote,5,1,Rua Mineiro,0.126,0.384,3,27
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Monte Alegre,0.126,0.362,3,33
+mês,recorrente,Ipsep,6,1,Rua Rio Colorado,0.126,0.377,6,73
+mês,recorrente,Boa Vista,1,1,Rua Da Gloria,0.125,0.415,5,40
+mês,recorrente,Iputinga,4,1,Rua Padre Fernao Cardim,0.125,0.381,3,32
+mês,recorrente,Varzea,4,1,Rua Emiliano Braga,0.125,0.378,5,35
+mês,recorrente,Coqueiral,5,4,Rua Rosario De Minas,0.125,0.394,5,18
+mês,recorrente,Jardim Sao Paulo,5,1,Rua Jundiai,0.125,0.405,4,30
+mês,recorrente,Ibura,6,1,Rua Pentecostes,0.125,0.363,4,50
+mês,recorrente,Boa Vista,1,1,Av Manoel Borba,0.124,0.399,3,39
+mês,recorrente,Macaxeira,3,2,Rua Ana,0.124,0.354,2,24
+mês,recorrente,Monteiro,3,3,2Tr Siriji,0.124,0.361,3,21
+mês,recorrente,Areias,5,1,Rua Capitao Domingos Da Costa,0.124,0.393,7,37
+mês,recorrente,Mustardinha,5,1,Rua Fabinho,0.124,0.369,4,6
+mês,recorrente,Boa Viagem,6,1,Rua Artur Muniz,0.124,0.361,2,62
+mês,recorrente,Paissandu,1,1,Rua Prefeito Jorge Martins,0.123,0.395,2,26
+mês,recorrente,Sao Jose,1,1,Prc Sergio Loreto,0.123,0.415,5,39
+mês,recorrente,Jaqueira,3,2,Rua Leonardo Bezerra Cavalcanti,0.123,0.37,2,66
+mês,recorrente,Iputinga,4,1,Rua Projetada,0.123,0.431,3,33
+mês,recorrente,Boa Viagem,6,1,Pra De Boa Viagem,0.123,0.369,3,38
+mês,recorrente,Ibura,6,1,Rua Rio Xingu,0.123,0.367,4,55
+mês,recorrente,Ipsep,6,1,Rua Jeronimo Heraclio,0.123,0.359,3,41
+mês,recorrente,Cabanga,1,1,Rua Iobi,0.122,0.369,3,32
+mês,recorrente,Coelhos,1,4,Rua Padre Venancio,0.122,0.356,2,5
+mês,recorrente,Ilha do Leite,1,2,Rua Jornalista Trajano Chacon,0.122,0.372,1,51
+mês,recorrente,Santo Antonio,1,1,Rua Da Praia,0.122,0.391,2,34
+mês,recorrente,San Martin,5,1,Rua Dr Telesphoro Fragoso,0.122,0.4,6,38
+mês,recorrente,Pina,6,1,Rua Capitao Rebelinho,0.122,0.357,3,42
+mês,recorrente,Cabanga,1,1,Rua General Estilac Leal,0.121,0.36,1,45
+mês,recorrente,Macaxeira,3,2,Rua Regina,0.121,0.35,3,31
+mês,recorrente,Vasco da Gama,3,3,Rua Douradinha,0.121,0.369,4,44
+mês,recorrente,Boa Viagem,6,1,Rua Pedro Americo Galvao,0.121,0.356,3,41
+mês,recorrente,Cohab   Ibura de Cima,6,1,Av Engenho Muribeca,0.121,0.372,8,87
+mês,recorrente,Afogados,5,1,Rua Alfredo Maia,0.12,0.408,3,46
+mês,recorrente,Boa Viagem,6,1,Rua Braulio Cavalcanti,0.12,0.363,3,41
+mês,recorrente,Boa Vista,1,1,Rua Da Conceicao,0.119,0.398,3,39
+mês,recorrente,Cidade Universitaria,4,2,Rua Canaa,0.119,0.391,2,20
+mês,recorrente,Torre,4,1,Rua Jose De Holanda,0.119,0.367,8,52
+mês,recorrente,Barro,5,1,Rua Adamir Menezes,0.119,0.402,3,17
+mês,recorrente,Afogados,5,1,Rua Ver Francisco De P S Chico Da Manola,0.118,0.384,3,11
+mês,recorrente,Tejipio,5,1,Rua Falcao De Lacerda,0.118,0.381,4,22
+mês,recorrente,Cohab   Ibura de Cima,6,1,Rua Deputado Joaquim Coutinho,0.118,0.379,4,61
+mês,recorrente,Corrego do Jenipapo,3,2,Av Norte Miguel Arraes De Alencar,0.117,0.357,4,85
+mês,recorrente,Passarinho,3,2,Est De Passarinho,0.117,0.361,4,47
+mês,recorrente,Afogados,5,1,Rua Joao Carlos Guimaraes,0.117,0.373,3,20
+mês,recorrente,Areias,5,1,Rua Do Cacimbao,0.117,0.409,3,52
+mês,recorrente,Recife,1,2,Rua Da Assembleia,0.116,0.383,5,64
+mês,recorrente,Santo Amaro,1,1,Rua Tupinambas,0.116,0.383,4,62
+mês,recorrente,Santo Amaro,1,1,Trv Espinhara,0.116,0.375,4,55
+mês,recorrente,Encruzilhada,2,2,Rua Doutor Jose Maria,0.116,0.359,3,39
+mês,recorrente,Monteiro,3,3,Prc Do Monteiro,0.116,0.356,2,19
+mês,recorrente,Iputinga,4,1,Rua Itapiranga,0.116,0.371,2,21
+mês,recorrente,Areias,5,1,Rua Ipojuca,0.116,0.404,2,26
+mês,recorrente,Campo Grande,2,2,Rua Goncalves Dias,0.115,0.413,5,76
+mês,recorrente,Morro da Conceicao,3,2,Prc Da Conceicao,0.115,0.355,3,49
+mês,recorrente,Iputinga,4,1,Rua General Vargas,0.115,0.408,4,27
+mês,recorrente,Madalena,4,1,Av Visconde De Albuquerque,0.115,0.412,4,46
+mês,recorrente,Madalena,4,1,Av Caxanga,0.114,0.419,5,49
+mês,recorrente,Torroes,4,1,Trv Washington Duarte Espindola,0.114,0.411,4,30
+mês,recorrente,Varzea,4,1,Rua Escritor Joaquim Noberto,0.114,0.363,1,3
+mês,recorrente,Dois Irmaos,3,2,Rua Projetada,0.113,0.357,4,75
+mês,recorrente,Cordeiro,4,1,Rua Professor Joaquim Xavier De Brito,0.112,0.381,6,29
+mês,recorrente,Sao Jose,1,1,Trv Do Macedo,0.111,0.376,3,62
+mês,recorrente,Boa Vista,1,1,Rua Mario Domingues,0.11,0.38,3,48
+mês,recorrente,Caxanga,4,1,Rua Sao Francisco De Paula,0.11,0.398,4,46
+mês,recorrente,San Martin,5,1,Rua Flora Rica,0.11,0.368,6,54
+mês,recorrente,Santo Amaro,1,1,Rua Recife,0.109,0.361,3,55
+mês,recorrente,Areias,5,1,Rua Capitao Vicente Moutinho,0.109,0.381,3,42
+mês,recorrente,Rosarinho,2,2,Rua Couto Magalhaes,0.108,0.366,4,59
+mês,recorrente,Jiquia,5,1,Rua Rodrigo Costa,0.108,0.363,4,31
+mês,recorrente,Jardim Sao Paulo,5,1,Est Do Curado,0.106,0.371,5,46
+mês,recorrente,Jardim Sao Paulo,5,1,Ref Da Br 101,0.105,0.371,3,20
+mês,recorrente,Iputinga,4,1,Rua David Nasser,0.104,0.391,6,49
+mês,recorrente,Cidade Universitaria,4,2,Vdo Reitoria,0.103,0.365,2,30
+mês,recorrente,Iputinga,4,1,Rua Capitao Aurelio De Araujo,0.103,0.386,5,49
+mês,recorrente,Prado,4,1,Trv Engenheiro Abdias De Carvalho,0.101,0.376,3,53
+mês,recorrente,Campo Grande,2,2,Rua Odorico Mendes,0.1,0.37,3,81
+mês,recorrente,Areias,5,1,Rua Antonio Franca,0.1,0.364,3,59
+mês,recorrente,Torre,4,1,Rua Jornalista Luiz Teixeira,0.098,0.366,4,46
+mês,recorrente,Varzea,4,1,Rua General Polidoro,0.098,0.364,3,44
+mês,recorrente,Torre,4,1,Av Beira Rio Governador Eduardo Campos,0.093,0.362,3,56

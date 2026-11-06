@@ -1,0 +1,62 @@
+{
+  "janela_meses": 3,
+  "amostras": {
+    "treino": 10133,
+    "validacao": 3404,
+    "teste": 3540
+  },
+  "taxa_positivos": {
+    "treino": 0.339,
+    "teste": 0.324
+  },
+  "teste_ruas_com_chamado": {
+    "com_historico": 1147,
+    "total": 1677
+  },
+  "arquitetura_escolhida": [
+    32,
+    16
+  ],
+  "auc_validacao": {
+    "[16]": 0.712,
+    "[32, 16]": 0.712,
+    "[64, 32]": 0.71
+  },
+  "resultados_teste": {
+    "Regra simples": {
+      "auc": 0.709,
+      "precisao@100": 0.97,
+      "cobertura@100": 0.085,
+      "precisao@200": 0.915,
+      "cobertura@200": 0.16,
+      "precisao@500": 0.738,
+      "cobertura@500": 0.322
+    },
+    "Regressão logística": {
+      "auc": 0.718,
+      "precisao@100": 0.96,
+      "cobertura@100": 0.084,
+      "precisao@200": 0.91,
+      "cobertura@200": 0.159,
+      "precisao@500": 0.754,
+      "cobertura@500": 0.329
+    },
+    "Rede neural (MLP)": {
+      "auc": 0.721,
+      "precisao@100": 0.95,
+      "cobertura@100": 0.083,
+      "precisao@200": 0.925,
+      "cobertura@200": 0.161,
+      "precisao@500": 0.756,
+      "cobertura@500": 0.33
+    }
+  },
+  "mlp_auc_5_sementes": {
+    "media": 0.718,
+    "desvio": 0.002
+  },
+  "previsao_setembro": {
+    "ruas_avaliadas": 3492,
+    "lista": "inspection_list_2025_09.csv"
+  }
+}

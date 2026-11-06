@@ -27,3 +27,13 @@ Thumbs.db
 .~lock.*#
 *.tmp
 *.log
+
+# Artigo do IEEE com licença institucional (não redistribuir)
+/references/enunciado/Problem-based_learning*.pdf
+
+# Arquivos auxiliares do LaTeX
+reports/*.aux
+reports/*.fls
+reports/*.fdb_latexmk
+reports/*.out
+reports/*.synctex.gz

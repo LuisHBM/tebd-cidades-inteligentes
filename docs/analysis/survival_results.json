@@ -1,0 +1,168 @@
+{
+  "intervalos_dias": [
+    0,
+    7,
+    14,
+    21,
+    31,
+    45,
+    62
+  ],
+  "amostras": {
+    "treino": 13537,
+    "teste": 3540
+  },
+  "teste_eventos_ate_31d": 1147,
+  "epocas_validacao": {
+    "Sobrevivência linear": [
+      136,
+      126,
+      139
+    ],
+    "Sobrevivência neural": [
+      46,
+      25,
+      37
+    ]
+  },
+  "resultados": {
+    "Regra simples": {
+      "auc_7d": 0.73,
+      "auc_14d": 0.732,
+      "auc_31d": 0.709,
+      "c_index": 0.687,
+      "precisao@200": 0.915,
+      "brier_31d": null,
+      "brier_7d": null,
+      "brier_14d": null,
+      "c_index_desvio": null
+    },
+    "Regressão logística": {
+      "auc_7d": 0.745,
+      "auc_14d": 0.742,
+      "auc_31d": 0.718,
+      "c_index": 0.696,
+      "precisao@200": 0.91,
+      "brier_31d": 0.182,
+      "brier_7d": null,
+      "brier_14d": null,
+      "c_index_desvio": null
+    },
+    "Rede neural (classificação)": {
+      "auc_7d": 0.753,
+      "auc_14d": 0.749,
+      "auc_31d": 0.723,
+      "c_index": 0.7,
+      "precisao@200": 0.915,
+      "brier_31d": 0.18,
+      "brier_7d": null,
+      "brier_14d": null,
+      "c_index_desvio": null
+    },
+    "Sobrevivência linear": {
+      "auc_7d": 0.745,
+      "auc_14d": 0.741,
+      "auc_31d": 0.718,
+      "c_index": 0.696,
+      "precisao@200": 0.905,
+      "brier_31d": 0.181,
+      "brier_7d": 0.098,
+      "brier_14d": 0.134,
+      "c_index_desvio": 0.0
+    },
+    "Sobrevivência neural": {
+      "auc_7d": 0.75,
+      "auc_14d": 0.744,
+      "auc_31d": 0.721,
+      "c_index": 0.699,
+      "precisao@200": 0.918,
+      "brier_31d": 0.181,
+      "brier_7d": 0.098,
+      "brier_14d": 0.134,
+      "c_index_desvio": 0.001
+    },
+    "Kaplan-Meier (sem variáveis)": {
+      "auc_7d": null,
+      "auc_14d": null,
+      "auc_31d": null,
+      "c_index": null,
+      "precisao@200": null,
+      "brier_31d": 0.219,
+      "brier_7d": 0.118,
+      "brier_14d": 0.167,
+      "c_index_desvio": null
+    }
+  },
+  "tipos_de_rua": {
+    "k": 3,
+    "silhueta": {
+      "2": 0.686,
+      "3": 0.621,
+      "4": 0.575,
+      "5": 0.543,
+      "6": 0.52
+    },
+    "validacao_agosto": {
+      "crônica": {
+        "ruas": 325,
+        "pct_ruas": 0.092,
+        "risco_previsto_7d": 0.565,
+        "ocorrido_7d": 0.538,
+        "risco_previsto_31d": 0.864,
+        "ocorrido_31d": 0.852,
+        "cobertura_7d": 0.362,
+        "cobertura_31d": 0.241,
+        "mediana_chamados": 12.0,
+        "mediana_dias_desde_ultimo": 3.0
+      },
+      "recorrente": {
+        "ruas": 937,
+        "pct_ruas": 0.265,
+        "risco_previsto_7d": 0.196,
+        "ocorrido_7d": 0.16,
+        "risco_previsto_31d": 0.486,
+        "ocorrido_31d": 0.409,
+        "cobertura_7d": 0.31,
+        "cobertura_31d": 0.334,
+        "mediana_chamados": 4.0,
+        "mediana_dias_desde_ultimo": 16.0
+      },
+      "esporádica": {
+        "ruas": 2278,
+        "pct_ruas": 0.644,
+        "risco_previsto_7d": 0.077,
+        "ocorrido_7d": 0.07,
+        "risco_previsto_31d": 0.231,
+        "ocorrido_31d": 0.214,
+        "cobertura_7d": 0.329,
+        "cobertura_31d": 0.425,
+        "mediana_chamados": 1.0,
+        "mediana_dias_desde_ultimo": 46.0
+      }
+    }
+  },
+  "plano_setembro": {
+    "ruas_avaliadas": 3492,
+    "arquivo": "inspection_plan_2025_09.csv",
+    "tipo_x_perfil_bairro": {
+      "crônica": {
+        "1": 206,
+        "2": 84,
+        "3": 30,
+        "4": 8
+      },
+      "recorrente": {
+        "1": 633,
+        "2": 114,
+        "3": 95,
+        "4": 15
+      },
+      "esporádica": {
+        "1": 1427,
+        "2": 390,
+        "3": 435,
+        "4": 55
+      }
+    }
+  }
+}

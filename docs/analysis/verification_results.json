@@ -1,0 +1,186 @@
+{
+  "treino_validacao_teste": {
+    "Rede (16)": [
+      0.736,
+      0.712,
+      0.719
+    ],
+    "Rede (32, 16)": [
+      0.743,
+      0.712,
+      0.721
+    ],
+    "Rede (64, 32)": [
+      0.745,
+      0.71,
+      0.722
+    ],
+    "Regressão logística": [
+      0.73,
+      0.707,
+      0.717
+    ],
+    "Regra simples": [
+      0.718,
+      0.701,
+      0.709
+    ]
+  },
+  "protecao_overfitting": {
+    "Rede (32, 16) com L2 e parada antecipada": {
+      "auc_treino": 0.734,
+      "auc_teste": 0.721,
+      "epocas": 20
+    },
+    "Rede (32, 16) sem proteção": {
+      "auc_treino": 0.769,
+      "auc_teste": 0.697,
+      "epocas": 273
+    },
+    "Rede (256, 128) sem proteção": {
+      "auc_treino": 0.882,
+      "auc_teste": 0.644,
+      "epocas": 291
+    }
+  },
+  "alvo_embaralhado_auc_teste": 0.511,
+  "subgrupos": {
+    "1": {
+      "ruas": 1491,
+      "taxa_positivos": 0.203,
+      "regra": 0.569,
+      "logistica": 0.579,
+      "rede": 0.585
+    },
+    "2": {
+      "ruas": 722,
+      "taxa_positivos": 0.245,
+      "regra": 0.533,
+      "logistica": 0.561,
+      "rede": 0.569
+    },
+    "3-4": {
+      "ruas": 669,
+      "taxa_positivos": 0.347,
+      "regra": 0.565,
+      "logistica": 0.595,
+      "rede": 0.59
+    },
+    "5-9": {
+      "ruas": 435,
+      "taxa_positivos": 0.54,
+      "regra": 0.629,
+      "logistica": 0.674,
+      "rede": 0.685
+    },
+    "10+": {
+      "ruas": 223,
+      "taxa_positivos": 0.901,
+      "regra": 0.728,
+      "logistica": 0.701,
+      "rede": 0.675
+    },
+    "RPA 1": {
+      "ruas": 370,
+      "taxa_positivos": 0.416,
+      "regra": 0.766,
+      "logistica": 0.78,
+      "rede": 0.782
+    },
+    "RPA 2": {
+      "ruas": 445,
+      "taxa_positivos": 0.301,
+      "regra": 0.721,
+      "logistica": 0.715,
+      "rede": 0.716
+    },
+    "RPA 3": {
+      "ruas": 683,
+      "taxa_positivos": 0.281,
+      "regra": 0.718,
+      "logistica": 0.712,
+      "rede": 0.716
+    },
+    "RPA 4": {
+      "ruas": 638,
+      "taxa_positivos": 0.312,
+      "regra": 0.645,
+      "logistica": 0.669,
+      "rede": 0.679
+    },
+    "RPA 5": {
+      "ruas": 630,
+      "taxa_positivos": 0.287,
+      "regra": 0.686,
+      "logistica": 0.698,
+      "rede": 0.695
+    },
+    "RPA 6": {
+      "ruas": 774,
+      "taxa_positivos": 0.371,
+      "regra": 0.71,
+      "logistica": 0.71,
+      "rede": 0.709
+    }
+  },
+  "bootstrap_auc": {
+    "rede_menos_logistica": {
+      "media": 0.003,
+      "ic95": [
+        -0.003,
+        0.009
+      ]
+    },
+    "rede_menos_regra": {
+      "media": 0.012,
+      "ic95": [
+        0.003,
+        0.022
+      ]
+    }
+  },
+  "serie_semanal": {
+    "variáveis": {
+      "rede": 0.72,
+      "logistica": 0.718
+    },
+    "semanas": {
+      "rede": 0.712,
+      "logistica": 0.714
+    },
+    "variáveis + semanas": {
+      "rede": 0.718,
+      "logistica": 0.725
+    }
+  },
+  "janelas": {
+    "1 -> 1": {
+      "ruas_teste": 1839,
+      "regra": 0.681,
+      "logistica": 0.7,
+      "rede": 0.696,
+      "rede_desvio": 0.008
+    },
+    "1 -> 2": {
+      "ruas_teste": 1778,
+      "regra": 0.652,
+      "logistica": 0.668,
+      "rede": 0.662,
+      "rede_desvio": 0.011
+    },
+    "3 -> 1": {
+      "ruas_teste": 3540,
+      "regra": 0.709,
+      "logistica": 0.718,
+      "rede": 0.721,
+      "rede_desvio": 0.002
+    },
+    "3 -> 2": {
+      "ruas_teste": 3404,
+      "regra": 0.701,
+      "logistica": 0.708,
+      "rede": 0.707,
+      "rede_desvio": 0.004
+    }
+  }
+}
