@@ -329,7 +329,7 @@ html, body { margin:0; background:var(--color-bg); }
 .ip-seg { display: inline-flex; padding: 3px; border-radius: 10px; background: var(--color-panel); border: 1px solid var(--color-border-line); }
 .ip-seg button { font: inherit; font-size: 0.85rem; border: 0; background: transparent; color: var(--color-fg-muted); padding: 0.4rem 0.85rem; border-radius: 7px; cursor: pointer; }
 .ip-seg button[aria-pressed="true"] { background: var(--c1); color: #fff; font-weight: 600; }
-.ip-mapbox { position: relative; overflow: hidden; padding: 0; }
+.ip-mapbox { position: relative; overflow: hidden; padding: 0; isolation: isolate; z-index: 0; }
 .ip-map { height: min(68vh, 620px); min-height: 380px; background: var(--color-panel-2); }
 .ip-map-msg { position: absolute; inset: 0; display: grid; place-items: center; padding: 1rem; text-align: center; color: var(--color-fg-muted); }
 .ip-map-legend { position: absolute; z-index: 500; right: 12px; bottom: 22px; max-width: 15rem; padding: 0.6rem 0.75rem; border-radius: 10px;
@@ -26597,6 +26597,16 @@ Ponto de Parada,2,-8.03007,-34.89406,29
       return {color: c, weight: 1.2, opacity: Math.min(1, op + 0.35), fillColor: c, fillOpacity: op};
     };
     let alvo = null;
+    // O Leaflet descarta o clique quando o mouse se mexe alguns pixels entre apertar e soltar (vira "arrastar").
+    // Uma mão de verdade quase sempre mexe um pouco, então tratamos o clique aqui com tolerância de 12 px.
+    const aoClicar = (camada, fn) => {
+      camada.on('mousedown', (e) => { M.down = e.containerPoint; });
+      camada.on('mouseup', (e) => {
+        const d = M.down;
+        M.down = null;
+        if (d && e.containerPoint.distanceTo(d) < 12) setTimeout(fn, 0);
+      });
+    };
     L.geoJSON(geo, {
       style: estilo,
       onEachFeature: (ft, lyr) => {
@@ -26606,7 +26616,7 @@ Ponto de Parada,2,-8.03007,-34.89406,29
         lyr.bindTooltip(`<b>${nome}</b><br>${g && g.n ? FMT.int(g.n) + ' chamados' : 'sem chamados no recorte'}`, {sticky: true, direction: 'top', offset: [0, -6]});
         lyr.on('mouseover', () => { if (bairro !== sel) { lyr.setStyle({color: destaque, weight: 3, opacity: 1, fillOpacity: sel ? 0.2 : OPAC_HOVER}); } });
         lyr.on('mouseout', () => lyr.setStyle(estilo(ft)));
-        lyr.on('click', () => { if (bairro && bairro !== sel) { M.sel = bairro; M.zoomSel = true; dash.setParams({}); } });
+        aoClicar(lyr, () => { if (bairro && bairro !== M.sel) { M.sel = bairro; M.zoomSel = true; dash.setParams({}); } });
       },
     }).addTo(M.layer);
     if (alvo) alvo.bringToFront();
@@ -26619,7 +26629,9 @@ Ponto de Parada,2,-8.03007,-34.89406,29
       const cores = {'crônica': corCss('var(--ds-chart-status-critical)'), 'recorrente': corCss('var(--c2)')};
       for (const r of [...noMapa].reverse()) {
         const g = geoR.get(r.ordem);
-        L.circleMarker([+g.lat, +g.lon], {radius: 5 + 6 * (+r.risco_31d_pct / 100), color: '#fff', weight: 1.2, fillColor: cores[r.tipo] || '#888', fillOpacity: 0.95})
+        const ponto = L.circleMarker([+g.lat, +g.lon], {radius: 5 + 6 * (+r.risco_31d_pct / 100), color: '#fff', weight: 1.2, fillColor: cores[r.tipo] || '#888', fillOpacity: 0.95});
+        aoClicar(ponto, () => ponto.openPopup());
+        ponto
           .bindPopup(pop(r.logradouro, `${r.tipo === 'crônica' ? 'Crônica: vistoriar na 1ª semana' : 'Recorrente: vistoriar no mês'}`, [
             ['Chance de nova reclamação em 7 dias', FMT.pct0(Math.round(+r.risco_7d_pct))],
             ['Em 31 dias', FMT.pct0(Math.round(+r.risco_31d_pct))],
