@@ -302,6 +302,48 @@ for i, r in enumerate(plano, start=1):
 write('plano_setembro', ['ordem', 'prioridade', 'tipo', 'bairro', 'rpa_id', 'perfil_bairro', 'perfil', 'logradouro',
                          'risco_7d_pct', 'risco_31d_pct', 'n_chamados', 'dias_desde_ultimo'], plano)
 
+# ---------------------------------------------------------------- coordenadas para o mapa
+# Só ~10% dos registros de iluminação trazem latitude e longitude. Para posicionar bairros e ruas,
+# usa a mediana das coordenadas de todos os grupos de serviço do CSV original no mesmo bairro
+# (ou bairro + logradouro). É uma posição aproximada, para visualização, e não entra no banco.
+def _norm(s):
+    return ' '.join(s.split()).upper()
+
+
+def _med(vals):
+    s = sorted(vals)
+    n = len(s)
+    return s[n // 2] if n % 2 else (s[n // 2 - 1] + s[n // 2]) / 2
+
+
+geo_b, geo_r = defaultdict(list), defaultdict(list)
+with open(REPO / 'data' / 'raw' / 'emlurb_156_2025.csv', newline='', encoding='utf-8-sig') as f:
+    for r in csv.DictReader(f, delimiter=';'):
+        try:
+            lat, lon = float(r['latitude']), float(r['longitude'])
+        except (TypeError, ValueError):
+            continue
+        if not (-8.20 < lat < -7.90 and -35.05 < lon < -34.84):  # fora do Recife
+            continue
+        geo_b[r['BAIRRO'].strip()].append((lat, lon))
+        geo_r[(r['BAIRRO'].strip(), _norm(r['LOGRADOURO']))].append((lat, lon))
+
+mapa_bairros = []
+for b in tab_bairros:
+    pts = geo_b.get(b['bairro'], [])
+    mapa_bairros.append({'bairro': b['bairro'], 'rpa_id': b['rpa_id'], 'pontos': len(pts),
+                         'lat': round(_med([p[0] for p in pts]), 5) if pts else None,
+                         'lon': round(_med([p[1] for p in pts]), 5) if pts else None})
+write('mapa_bairros', ['bairro', 'rpa_id', 'lat', 'lon', 'pontos'], mapa_bairros)
+
+mapa_ruas = []
+for r in plano:
+    pts = geo_r.get((r['bairro'], _norm(r['logradouro'])))
+    if pts:
+        mapa_ruas.append({'ordem': r['ordem'], 'pontos': len(pts),
+                          'lat': round(_med([p[0] for p in pts]), 5), 'lon': round(_med([p[1] for p in pts]), 5)})
+write('mapa_ruas', ['ordem', 'lat', 'lon', 'pontos'], mapa_ruas)
+
 # ---------------------------------------------------------------- cubo para os filtros
 # Uma linha por combinação das dimensões do esquema estrela, com a contagem de solicitações.
 cubo = Counter((r['abertura'].isoformat(), r['rpa'], r['bairro'], r['servico'], r['situacao'], r['dias']) for r in reqs)

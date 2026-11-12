@@ -61,7 +61,7 @@ As consultas dos níveis operacional, tático e estratégico estão em `sql/06` 
 psql -h localhost -U postgres -d lighting_service -v ON_ERROR_STOP=1 -f sql/06_operational_dashboard.sql
 ```
 
-O dashboard de apresentação está em [dashboard/index.html](dashboard/index.html). É um arquivo único, com os dados embutidos, que abre no navegador sem internet e sem banco de dados.
+O dashboard de apresentação está em [dashboard/index.html](dashboard/index.html). É um arquivo único, com os dados embutidos, que abre no navegador sem internet e sem banco de dados. A aba Mapa é a exceção: ela carrega o Leaflet e o mapa de fundo da Esri (gratuito, sem chave, funciona também com o arquivo aberto direto do disco) pela internet e mostra os bairros (tamanho pelo volume, cor pelo perfil do k-means) e as ruas do plano de inspeção de setembro, em posições aproximadas pela mediana das coordenadas do CSV original.
 
 As tabelas do dashboard de apresentação são geradas, só com a biblioteca padrão, em `data/dashboard/`. O script confere os agregados com os números desta documentação:
 
