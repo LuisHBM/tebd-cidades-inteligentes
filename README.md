@@ -61,6 +61,14 @@ As consultas dos níveis operacional, tático e estratégico estão em `sql/06` 
 psql -h localhost -U postgres -d lighting_service -v ON_ERROR_STOP=1 -f sql/06_operational_dashboard.sql
 ```
 
+O dashboard de apresentação está em [dashboard/index.html](dashboard/index.html). É um arquivo único, com os dados embutidos, que abre no navegador sem internet e sem banco de dados.
+
+As tabelas do dashboard de apresentação são geradas, só com a biblioteca padrão, em `data/dashboard/`. O script confere os agregados com os números desta documentação:
+
+```bash
+python3 scripts/build_dashboard_data.py
+```
+
 A mineração usa scikit-learn, pandas e matplotlib:
 
 ```bash
