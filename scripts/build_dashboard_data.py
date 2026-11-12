@@ -344,6 +344,64 @@ for r in plano:
                           'lat': round(_med([p[0] for p in pts]), 5), 'lon': round(_med([p[1] for p in pts]), 5)})
 write('mapa_ruas', ['ordem', 'lat', 'lon', 'pontos'], mapa_ruas)
 
+# ---------------------------------------------------------------- contornos dos bairros
+# Malha oficial de bairros do portal de dados abertos do Recife (ODbL), em data/raw/bairros_recife.geojson.
+# Os contornos são simplificados (Douglas-Peucker, ~10 m) para caber no HTML do dashboard.
+import unicodedata
+
+
+def _sem_acento(s):
+    return ''.join(c for c in unicodedata.normalize('NFD', s) if unicodedata.category(c) != 'Mn').upper().strip()
+
+
+def _dp(pts, tol):
+    if len(pts) < 3:
+        return pts
+    (x1, y1), (x2, y2) = pts[0], pts[-1]
+    dx, dy = x2 - x1, y2 - y1
+    den = math.hypot(dx, dy)
+    idx, dmax = 0, -1.0
+    for i in range(1, len(pts) - 1):
+        x, y = pts[i]
+        d = abs(dy * x - dx * y + x2 * y1 - y2 * x1) / den if den else math.hypot(x - x1, y - y1)
+        if d > dmax:
+            idx, dmax = i, d
+    if dmax <= tol:
+        return [pts[0], pts[-1]]
+    return _dp(pts[:idx + 1], tol)[:-1] + _dp(pts[idx:], tol)
+
+
+def _anel(ring, tol=0.0001):
+    s = _dp(ring, tol)
+    if len(s) < 4:
+        s = ring if len(ring) < 8 else ring[::max(1, len(ring) // 6)] + [ring[0]]
+    return [[round(x, 5), round(y, 5)] for x, y in s]
+
+
+GEO_SRC = REPO / 'data' / 'raw' / 'bairros_recife.geojson'
+if GEO_SRC.exists():
+    # O CSV usa nomes compostos para alguns bairros ("Cohab   Ibura de Cima"); a malha usa a primeira parte.
+    nosso = {}
+    for b in tab_bairros:
+        nosso[_sem_acento(b['bairro'])] = b['bairro']
+        nosso.setdefault(_sem_acento(b['bairro'].split('   ')[0]), b['bairro'])
+    malha = json.loads(GEO_SRC.read_text(encoding='utf-8'))
+    feats, casados = [], set()
+    for f in malha['features']:
+        p, g = f['properties'], f['geometry']
+        nome = nosso.get(_sem_acento(p['EBAIRRNOME']))
+        if nome:
+            casados.add(nome)
+        polys = g['coordinates'] if g['type'] == 'MultiPolygon' else [g['coordinates']]
+        feats.append({'type': 'Feature',
+                      'properties': {'bairro': nome, 'nome_oficial': p['EBAIRRNOMEOF'], 'rpa': p['CRPAAACODI']},
+                      'geometry': {'type': 'MultiPolygon', 'coordinates': [[_anel(r) for r in poly] for poly in polys]}})
+    sem_malha = [b['bairro'] for b in tab_bairros if b['bairro'] not in casados]
+    assert not sem_malha, f'bairros sem contorno: {sem_malha}'
+    (OUT / 'bairros.geojson').write_text(json.dumps({'type': 'FeatureCollection', 'features': feats},
+                                                    ensure_ascii=False, separators=(',', ':')), encoding='utf-8')
+    print(f'bairros.geojson: {len(feats)} contornos, {(OUT / "bairros.geojson").stat().st_size // 1024} KB')
+
 # ---------------------------------------------------------------- cubo para os filtros
 # Uma linha por combinação das dimensões do esquema estrela, com a contagem de solicitações.
 cubo = Counter((r['abertura'].isoformat(), r['rpa'], r['bairro'], r['servico'], r['situacao'], r['dias']) for r in reqs)
